@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# README.md file
+README.md 
+
+# no yarn.lock|package-lock.json file
+yarn.lock
+package-lock.json
