@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Slider from '../components/Slider';
 
 export default function Home() {
   return (
@@ -9,9 +8,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <Slider />
-      </main>
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center"></main>
     </div>
   );
 }
