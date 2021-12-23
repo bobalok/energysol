@@ -35,9 +35,9 @@ export default function Slider() {
           ]}
           // spaceBetween={20}
           autoplay={{
-            delay: 2500,
+            delay: 6000,
             disableOnInteraction: true,
-            pauseOnMouseEnter: true,
+            pauseOnMouseEnter: false,
           }}
           // effect={{fade
           // }}
@@ -49,13 +49,14 @@ export default function Slider() {
           <SwiperSlide>
             <Image
               className=""
-              src="https://images.unsplash.com/photo-1519861531473-9200262188bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=80"
+              src="https://energysolutionbd.net/assets/images/ashuganj-01-1-1024x576.png"
               alt="basketball"
               layout="fill"
               // width={700}
               // height={475}
               objectFit="cover"
               priority
+              quality="100"
             />
           </SwiperSlide>
           <SwiperSlide>
