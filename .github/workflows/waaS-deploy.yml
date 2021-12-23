@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ initializing-with-npm-for-deployment-testing ]
   pull_request:
-    branches: [ main ]
+    branches: [ initializing-with-npm-for-deployment-testing ]
 
 jobs:
   build:
@@ -34,5 +34,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
         #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        branch: initializing-with-npm-for-deployment-testing # The branch the action should deploy to.
+        branch: gh-pages # The branch the action should deploy to.
         folder: out # The folder the action should deploy.
