@@ -17,7 +17,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/effect-fade';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default function Slider() {
   return (
@@ -47,7 +47,7 @@ export default function Slider() {
           pagination={{ clickable: true }}
         >
           <SwiperSlide>
-            <Image
+            {/* <Image
               className=""
               src="https://energysolutionbd.net/assets/images/ashuganj-01-1-1024x576.png"
               alt="basketball"
@@ -69,7 +69,7 @@ export default function Slider() {
               // height={475}
               objectFit="cover"
               priority
-            />
+            /> */}
           </SwiperSlide>
         </Swiper>
       </div>

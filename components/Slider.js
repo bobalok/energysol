@@ -9,13 +9,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default function Slider() {
   return (
     <>
       <div className="h-screen">
-        <Swiper
+        {/* <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={20}
           slidesPerView={1}
@@ -58,7 +58,7 @@ export default function Slider() {
               height={500}
             />
           </SwiperSlide>
-        </Swiper>
+        </Swiper> */}
       </div>
     </>
   );
