@@ -25,7 +25,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+        #cache: 'npm'
     - run: npm ci
     - run: npm run build
     - run: npm export
@@ -33,6 +33,6 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
-        #GITHUB_TOKEN: ${{  }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages # The branch the action should deploy to.
         folder: out # The folder the action should deploy.
