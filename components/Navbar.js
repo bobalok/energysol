@@ -4,7 +4,7 @@ import Navitems from './Navitems';
 function Navbar() {
   return (
     <>
-      <nav className="sticky z-50 top-0 shadow-md p-4 bg-white">
+      <nav className="sticky z-50 top-0 shadow-md p-4 backdrop-blur-lg bg-white/90">
         <div className="max-w-8xl mx-auto md:px-14">
           <div className="flex justify-between items-center">
             {/* logo */}

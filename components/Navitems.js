@@ -47,13 +47,10 @@ export default function Navitems() {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-            <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right backdrop-blur-sm bg-white/30 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+            <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right backdrop-blur-sm bg-white/90 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
               <div className="px-4 py-8 flex flex-col space-y-2">
                 <Menu.Item>
-                  <MyLink
-                    href="/Slider"
-                    className="hover:text-blue-400 border-4 border-yellow-400"
-                  >
+                  <MyLink href="/Slider" className="hover:text-blue-400">
                     Home
                   </MyLink>
                 </Menu.Item>

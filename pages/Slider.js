@@ -14,7 +14,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+// import 'swiper/css/scrollbar';
 import 'swiper/css/effect-fade';
 
 import Image from 'next/image';
@@ -39,9 +39,7 @@ export default function Slider() {
             disableOnInteraction: true,
             pauseOnMouseEnter: false,
           }}
-          // effect={{fade
-          // }}
-          // f
+          effect="fade"
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
