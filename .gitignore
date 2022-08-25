@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# ESELWEBSITE
+/eselWebsite
+
 # next.js
 /.next/
 /out/
