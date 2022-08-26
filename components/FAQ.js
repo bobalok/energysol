@@ -6,7 +6,31 @@ export default function FAQ() {
       <section className='max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8'>
         <div className='max-w-3xl mx-auto text-center py-12'>
           <h2 className='text-3xl font-bold text-gray-900 sm:text-4xl'>
-            Freqently Asked Questions
+            <span className='relative inline-block'>
+              <svg
+                viewBox='0 0 52 24'
+                fill='currentColor'
+                className='absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block'
+              >
+                <defs>
+                  <pattern
+                    id='d9d7687a-355f-4502-8ec4-7945db034688'
+                    x='0'
+                    y='0'
+                    width='.135'
+                    height='.30'
+                  >
+                    <circle cx='1' cy='1' r='.7' />
+                  </pattern>
+                </defs>
+                <rect
+                  fill='url(#d9d7687a-355f-4502-8ec4-7945db034688)'
+                  width='52'
+                  height='24'
+                />
+              </svg>
+              <span className='relative'>Frequently Asked Questions</span>
+            </span>{" "}
           </h2>
         </div>
         <div className='bg-white border border-gray-200 divide-y divide-gray-200 rounded-xl'>
