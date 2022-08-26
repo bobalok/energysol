@@ -11,7 +11,7 @@ function Footer() {
             // style='border:0;'
             // allowfullscreen=''
             loading='lazy'
-            referrerpolicy='no-referrer-when-downgrade'
+            referrerPolicy='no-referrer-when-downgrade'
           ></iframe>
           {/* <img
             class='absolute inset-0 object-cover w-full h-full'

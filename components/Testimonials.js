@@ -62,7 +62,7 @@ export default function Testimonials() {
                   <span className='sr-only'> Linkedin </span>
 
                   <svg
-                    className='w-6 h-6 text-sky-600'
+                    className='w-6 h-6 text-sky-600 mr-1'
                     fill='currentColor'
                     viewBox='0 0 64 64'
                     aria-hidden='true'
