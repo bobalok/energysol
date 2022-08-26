@@ -20,9 +20,9 @@ export default function Fourtype() {
             </h2>
 
             <p className='mt-4 text-base text-gray-300'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+              We are good at solving problems. Problems are everywhere. We solve
+              them everyday. We are always looking for ways to improve ourselves
+              and our surroundings.
             </p>
           </div>
 
@@ -35,27 +35,10 @@ export default function Fourtype() {
                 className='w-10 h-10 text-blue-400'
                 aria-hidden='true'
               />
-              {/* <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='w-10 h-10 text-blue-400'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg> */}
-
               <h3 className='mt-4 text-xl font-bold text-white'>Consultancy</h3>
 
               <p className='mt-1 text-base text-gray-300'>
-                Our team's vision and mission is to leverage physically in
+                Our team&apos;s vision and mission is to leverage physically in
                 office research, indentation, global forecasting models and
                 expertise to advise government and private companies in
                 strategic issues related to the energy world.
@@ -70,29 +53,14 @@ export default function Fourtype() {
                 className='w-10 h-10 text-blue-400'
                 aria-hidden='true'
               />
-              {/* <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='w-10 h-10 text-blue-400'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg> */}
 
               <h3 className='mt-4 text-xl font-bold text-white'>Supply</h3>
 
               <p className='mt-1 text-base text-gray-300'>
-                Energy Solution Engineering Ltd. has extensive experience in the
-                supply of its products and materials for Power Plants,
-                Production and Distribution of Electricity.
+                We have been involved in the industry since 2010, we have grown
+                our company from the ground up and now provide everything from
+                materials for Power Plants, construction, agriculture and other
+                suppliable goods.
               </p>
             </a>
 
@@ -104,22 +72,6 @@ export default function Fourtype() {
                 className='w-10 h-10 text-blue-400'
                 aria-hidden='true'
               />
-              {/* <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='w-10 h-10 text-blue-400'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg> */}
 
               <h3 className='mt-4 text-xl font-bold text-white'>
                 Construction
@@ -138,25 +90,7 @@ export default function Fourtype() {
               href='#!'
             >
               <CogIcon className='w-10 h-10 text-blue-400' aria-hidden='true' />
-              {/* <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='w-10 h-10 text-blue-400'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg> */}
-
               <h3 className='mt-4 text-xl font-bold text-white'>Engineering</h3>
-
               <p className='mt-1 text-base text-gray-300'>
                 We offer the services of our professional engineers in the field
                 of project management in executing complex projects. Our
@@ -170,29 +104,11 @@ export default function Fourtype() {
               href='#!'
             >
               <SunIcon className='w-10 h-10 text-blue-400' aria-hidden='true' />
-              {/* <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='w-10 h-10 text-blue-400'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg> */}
-
               <h3 className='mt-4 text-xl font-bold text-white'>
                 Solar Infrastructure
               </h3>
-
               <p className='mt-1 text-base text-gray-300'>
-                Enhancing the country's power generation infrastructures to
+                Enhancing the country&apos;s power generation infrastructures to
                 produce more renewable energy as we know Solar energy is widely
                 available and unlimited. No air or water pollution is given off
                 when solar panels are used for energy production
@@ -207,23 +123,6 @@ export default function Fourtype() {
                 className='w-10 h-10 text-blue-400'
                 aria-hidden='true'
               />
-              {/* <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='w-10 h-10 text-blue-400'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg> */}
-
               <h3 className='mt-4 text-xl font-bold text-white'>
                 Fertilizer Distribution
               </h3>
@@ -240,7 +139,6 @@ export default function Fourtype() {
               href='#!'
             >
               <span className='text-base font-medium'> Know us more </span>
-
               <svg
                 className='w-5 h-5 ml-3'
                 xmlns='http://www.w3.org/2000/svg'

@@ -36,7 +36,7 @@ export default function Testimonials() {
             </div>
 
             <blockquote className='sm:col-span-2'>
-              <p className='text-xl font-medium sm:text-2xl text-justify'>
+              <p className='text-xl font-medium sm:text-2xl sm:text-justify'>
                 Our integrity, transparency, and sincerity enabled us to build
                 long-term relationships with our foreign and local partners. Our
                 achievement proves our growth. We believe in Team Work, Let us
@@ -59,18 +59,18 @@ export default function Testimonials() {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <span class='sr-only'> Linkedin </span>
+                  <span className='sr-only'> Linkedin </span>
 
                   <svg
-                    className='w-6 h-6'
+                    className='w-6 h-6 text-sky-600'
                     fill='currentColor'
                     viewBox='0 0 64 64'
                     aria-hidden='true'
                   >
                     <path
-                      fill-rule='evenodd'
+                      fillRule='evenodd'
                       d='M32,6C17.641,6,6,17.641,6,32c0,14.359,11.641,26,26,26s26-11.641,26-26C58,17.641,46.359,6,32,6z M25,44h-5V26h5V44z M22.485,24h-0.028C20.965,24,20,22.888,20,21.499C20,20.08,20.995,19,22.514,19c1.521,0,2.458,1.08,2.486,2.499 C25,22.887,24.035,24,22.485,24z M44,44h-5v-9c0-3-1.446-4-3-4c-1.445,0-3,1-3,4v9h-5V26h5v3c0.343-0.981,1.984-3,5-3c4,0,6,3,6,8 V44z'
-                      clip-rule='evenodd'
+                      clipRule='evenodd'
                     />
                   </svg>
                   <span>Available on LinkedIn</span>

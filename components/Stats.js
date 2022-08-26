@@ -11,10 +11,10 @@ export default function Stats() {
             </h2>
 
             <p className='mt-4 text-gray-500 sm:text-xl'>
-              we are the most experienced and reliable solution in{" "}
-              <strong className='bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-green-700'>
-                Bangladesh
-              </strong>
+              We are the most experienced and trusted company in Bangladesh. Our
+              team consists of highly skilled professionals who have been
+              working in the fields for many years. We have a good reputation in
+              the industry.
             </p>
           </div>
 
