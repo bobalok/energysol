@@ -146,7 +146,7 @@ function Footer() {
             </div>
 
             <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
-              <div className='sm:px-96'>
+              <div className='sm:ml-96'>
                 <p className='font-medium'>Support</p>
 
                 <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-300'>
