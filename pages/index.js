@@ -13,6 +13,7 @@ export default function Home() {
         <title>Energy Solution | Home</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
       <Slider />
       <Stats />
       <Fourtype />

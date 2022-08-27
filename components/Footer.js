@@ -61,7 +61,7 @@ function Footer() {
               <div className='flex mt-16 space-x-3'>
                 <a
                   className='hover:text-green-400 p-2 border rounded-full border-white/25 hover:opacity-75'
-                  href=''
+                  href='https://api.whatsapp.com/send?phone=+8801685626238'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -145,10 +145,9 @@ function Footer() {
               </div>
             </div>
 
-            <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
+            <div className='grid grid-cols-1 gap-4'>
               <div className='sm:ml-96'>
                 <p className='font-medium'>Support</p>
-
                 <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-300'>
                   <a className='hover:opacity-75' href=''>
                     {" "}
@@ -164,7 +163,7 @@ function Footer() {
                   </a>
                   <a className='hover:opacity-75' href=''>
                     {" "}
-                    Forums{" "}
+                    Privacy Policy{" "}
                   </a>
                 </nav>
               </div>

@@ -69,7 +69,7 @@ export default function Slider() {
               a betternet for new generation 2
             </span> */}
             <div className='relative max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex'>
-              <div className='max-w-xl text-center sm:text-left'>
+              <div className='max-w-3xl text-center sm:text-left'>
                 <h1 className='text-3xl font-extrabold sm:text-6xl text-white'>
                   COMBINE CYCLE SINGLE SHAFT POWER PLANT (NORTH AND SOUTH 400MW
                   EACH)

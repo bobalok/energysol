@@ -128,7 +128,10 @@ export default function Fourtype() {
               </h3>
 
               <p className='mt-1 text-base text-gray-300'>
-                From importing of best quality in bulk to
+                Enhancing the country&apos;s power generation infrastructures to
+                produce more renewable energy as we know Solar energy is widely
+                available and unlimited. No air or water pollution is given off
+                when solar panels are used for energy production
               </p>
             </a>
           </div>
