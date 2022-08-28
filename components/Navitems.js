@@ -17,16 +17,16 @@ export default function Navitems() {
     <>
       <div className='hidden lg:flex lg:items-center md:space-x-5 lg:font-bold lg:text-gray-700'>
         <Link href='/'>
-          <a className='hover:text-blue-400 focus:text-white'>Home</a>
+          <a className='hover:text-blue-400 focus:text-blue-500'>Home</a>
         </Link>
         <Link href='/dashboard'>
-          <a className='hover:text-blue-400 focus:text-white'>Portfolio</a>
+          <a className='hover:text-blue-400 focus:text-blue-500'>Portfolio</a>
         </Link>
         <Link href='/dashboard'>
-          <a className='hover:text-blue-400 focus:text-white'>Contact</a>
+          <a className='hover:text-blue-400 focus:text-blue-500'>Contact</a>
         </Link>
         <Link href='/dashboard'>
-          <a className='hover:text-blue-400 focus:text-white'>Partners</a>
+          <a className='hover:text-blue-400 focus:text-blue-500'>Partners</a>
         </Link>
 
         {/* dropdown start */}
