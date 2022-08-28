@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer() {
   return (
     <>
@@ -161,10 +163,9 @@ function Footer() {
                     {" "}
                     Live Chat{" "}
                   </a>
-                  <a className='hover:opacity-75' href='/privacypolicy'>
-                    {" "}
-                    Privacy Policy{" "}
-                  </a>
+                  <Link href='/privacypolicy'>
+                    <a className='hover:opacity-75'> Privacy Policy </a>
+                  </Link>
                 </nav>
               </div>
 
