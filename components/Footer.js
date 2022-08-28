@@ -161,7 +161,7 @@ function Footer() {
                     {" "}
                     Live Chat{" "}
                   </a>
-                  <a className='hover:opacity-75' href=''>
+                  <a className='hover:opacity-75' href='/privacypolicy'>
                     {" "}
                     Privacy Policy{" "}
                   </a>
