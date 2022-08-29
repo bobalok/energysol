@@ -13,7 +13,7 @@ export default function Testimonials() {
   plugins: [require('@tailwindcss/aspect-ratio')] */}
 
       <div className='max-w-5xl px-4 pt-44 py-12 mx-auto'>
-        <section className='p-8 bg-gray-100 rounded-lg'>
+        <section className='p-8 bg-gray-100 rounded-lg md:drop-shadow-xl md:hover:drop-shadow-2xl transition duration-200'>
           <div className='grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center'>
             <div className='relative'>
               <div className='aspect-w-1 aspect-h-1'>
@@ -31,7 +31,7 @@ export default function Testimonials() {
               </div>
 
               <div className='absolute inline-flex px-4 py-2 bg-white rounded-lg shadow-xl -bottom-4 -right-4'>
-                <span className='inline-block w-12 h-10 bg-amber-900 rounded-lg'></span>
+                <span className='inline-block w-12 h-10 bg-gray-300 rounded-lg'></span>
               </div>
             </div>
 
@@ -52,7 +52,7 @@ export default function Testimonials() {
                 </p>
               </cite>
 
-              <social className='flex mt-8 space-x-1 text-gray-500 sm:mt-8'>
+              <div className='flex mt-8 space-x-1 text-gray-500 sm:mt-8'>
                 <a
                   className='hover:text-blue-600 flex'
                   href='https://www.linkedin.com/in/arif-i-z-rahman-71774570/'
@@ -75,7 +75,7 @@ export default function Testimonials() {
                   </svg>
                   <span>Available on LinkedIn</span>
                 </a>
-              </social>
+              </div>
             </blockquote>
           </div>
         </section>
