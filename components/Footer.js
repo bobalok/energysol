@@ -148,7 +148,7 @@ function Footer() {
             </div>
 
             <div className='grid grid-cols-1 gap-4'>
-              <div className='sm:ml-96'>
+              <div className='md:ml-60 lg:ml-56 xl:ml-96'>
                 <p className='font-medium'>Support</p>
                 <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-300'>
                   <a className='hover:opacity-75' href=''>
