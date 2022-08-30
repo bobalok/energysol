@@ -1,6 +1,6 @@
 import Head from "next/head";
 import FAQ from "../components/FAQ.js";
-import Fourtype from "../components/Fourtype.js";
+import Sixtype from "../components/Sixtype.js";
 import Slider from "../components/Slider.js";
 import Stats from "../components/Stats.js";
 import Testimonials from "../components/Testimonials.js";
@@ -16,7 +16,7 @@ export default function Home() {
 
       <Slider />
       <Stats />
-      <Fourtype />
+      <Sixtype />
       <Testimonials />
       <FAQ />
       {/* </div> */}

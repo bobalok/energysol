@@ -25,8 +25,8 @@ export default function Testimonials() {
                   //   width={277}
                   //   height={277}
                   objectFit='contain'
-                  priority
-                  quality='100'
+                  // priority
+                  quality='70'
                 />
               </div>
 

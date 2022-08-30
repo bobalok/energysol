@@ -27,7 +27,7 @@ const defaultNavigation = [
 ];
 
 const dropdownNavigation = [
-  { name: "Subsidiary Company", href: "#!", current: false },
+  { name: "Energy Solution Solar", href: "#!", current: false },
   { name: "Management", href: "#!", current: false },
 ];
 
@@ -68,7 +68,7 @@ export default function Navi() {
               <div className='flex-1 flex md:items-stretch md:justify-start'>
                 <div className='flex-shrink-0 flex items-center'>
                   <Link href='/'>
-                    <a className='bg-logo-default bg-no-repeat w-60 sm:w-96 h-10 sm:h-14'></a>
+                    <a className='bg-logo-default bg-no-repeat w-72 sm:w-96 h-14 sm:h-14'></a>
                   </Link>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function Navi() {
                       <Menu.Button className='relative inline-flex justify-center items-center w-full text-md font-bold text-gray-700 hover:text-blue-600'>
                         More
                         <ChevronDownIcon
-                          className='w-5 h-5'
+                          className='w-4 h-4'
                           aria-hidden='true'
                         />
                       </Menu.Button>
@@ -115,7 +115,7 @@ export default function Navi() {
                               href='/Slider'
                               className='hover:text-blue-600'
                             >
-                              Subsidiary Company
+                              Energy Solution Solar
                             </MyLink>
                           </Menu.Item>
                           <hr />
@@ -157,7 +157,7 @@ export default function Navi() {
             </div>
           </div>
 
-          <Disclosure.Panel className='md:hidden'>
+          <Disclosure.Panel className='lg:hidden'>
             <div className='px-2 pt-2 pb-3 space-y-1'>
               {defaultNavigation.map((item) => (
                 <Disclosure.Button
@@ -167,7 +167,24 @@ export default function Navi() {
                   className={classNames(
                     item.current
                       ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      : "text-gray-600 hover:bg-gray-700 hover:text-white",
+                    "block px-3 py-2 rounded-md text-base font-medium"
+                  )}
+                  aria-current={item.current ? "page" : undefined}
+                >
+                  {item.name}
+                </Disclosure.Button>
+              ))}
+              {/* otheritems */}
+              {dropdownNavigation.map((item) => (
+                <Disclosure.Button
+                  key={item.name}
+                  as='a'
+                  href={item.href}
+                  className={classNames(
+                    item.current
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-600 hover:bg-gray-700 hover:text-white",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

@@ -20,14 +20,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 // import { faHandshake } from "@fortawesome/free-regular-svg-icons";
 
-export default function Fourtype() {
+export default function Sixtype() {
   return (
     <>
       <section className='text-white bg-gray-900'>
         <div className='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
           <div className='max-w-lg mx-auto text-center'>
             <h2 className='text-3xl font-bold sm:text-4xl'>
-              The things we are best at
+              The fields we are best at
             </h2>
 
             <p className='mt-4 text-base text-gray-300'>
