@@ -29,7 +29,7 @@ export default function Clients() {
           <div className='max-w-3xl mx-auto text-center py-12'>
             <h2 className='text-3xl font-bold text-gray-900 sm:text-4xl'>
               <span className='relative inline-block'>
-                <span className='relative'>Honourable Clients</span>
+                <span className='relative'>Honorable Clients</span>
               </span>{" "}
             </h2>
             <p className='mt-4 text-gray-500 sm:text-xl sm:max-w-md mx-auto text-center'>
