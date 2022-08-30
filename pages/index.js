@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Clients from "../components/Clients.js";
 import FAQ from "../components/FAQ.js";
 import Sixtype from "../components/Sixtype.js";
 import Slider from "../components/Slider.js";
@@ -18,6 +19,7 @@ export default function Home() {
       <Stats />
       <Sixtype />
       <Testimonials />
+      <Clients />
       <FAQ />
       {/* </div> */}
     </>
