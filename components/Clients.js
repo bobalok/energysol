@@ -5,14 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 // import Swiper core and required modules
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-  EffectFade,
-} from "swiper";
+import { A11y, Autoplay } from "swiper";
 
 import Image from "next/image";
 import comp1 from "../public/images/clients-logos/comp_desco.png";
@@ -39,92 +32,72 @@ export default function Clients() {
           </div>
           <Swiper
             className='text-center'
-            modules={[
-              Navigation,
-              Pagination,
-              Scrollbar,
-              A11y,
-              Autoplay,
-              EffectFade,
-            ]}
+            modules={[A11y, Autoplay]}
             spaceBetween={30}
             speed={3200}
             loop={true}
             loopFillGroupWithBlank={true}
             autoplay={{
               delay: 0,
-              disableOnInteraction: false,
-              pauseOnMouseEnter: false,
+              // disableOnInteraction: false,
+              pauseOnMouseEnter: true,
             }}
             slidesPerView={3}
-            // navigation
-            // pagination={{ clickable: true }}
           >
             <SwiperSlide>
               <Image
-                className=''
                 src={comp1}
                 alt='Dhaka Electric Supply Company Limited'
-                layout='intrinsic'
-                width={120}
-                height={100}
-                objectFit='contain'
-                // priority
-                quality='70'
-              />{" "}
-              {/* <span className='text-center self-center flex'>company 1</span> */}
+                // width={120} automatically provided
+                // height={100} automatically provided
+                blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
+              />
+              <p className='text-center text-gray-400'>DESCO</p>
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                className=''
                 src={comp2}
                 alt='Bangladesh Power Development Board'
-                layout='intrinsic'
-                width={120}
-                height={100}
-                objectFit='contain'
-                // priority
-                quality='70'
+                // width={120} automatically provided
+                // height={100} automatically provided
+                blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
               />
+              <p className='text-center text-gray-400'>BPDB</p>
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                className=''
                 src={comp3}
                 alt='West Zone Power Distribution Company'
-                layout='intrinsic'
-                width={120}
-                height={100}
-                objectFit='contain'
-                // priority
-                quality='70'
+                // width={120} automatically provided
+                // height={100} automatically provided
+                blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
               />
+              <p className='text-center text-gray-400'>WZPDCL</p>
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                className=''
                 src={comp4}
                 alt='Dhaka WASA'
-                layout='intrinsic'
-                width={120}
-                height={100}
-                objectFit='contain'
-                // priority
-                quality='70'
+                // width={120} automatically provided
+                // height={100} automatically provided
+                blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
               />
+              <p className='text-center text-gray-400'>Dhaka WASA</p>
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                className=''
                 src={comp5}
                 alt='Bangladesh Machine Tools Factory'
-                layout='intrinsic'
-                width={120}
-                height={100}
-                objectFit='contain'
-                // priority
-                quality='70'
+                // width={120} automatically provided
+                // height={100} automatically provided
+                blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
               />
+              <p className='text-center text-gray-400'>BMTF</p>
             </SwiperSlide>
             {/* <SwiperSlide>Slide 6</SwiperSlide>
             <SwiperSlide>Slide 7</SwiperSlide>
