@@ -33,8 +33,8 @@ export default function Clients() {
               </span>{" "}
             </h2>
             <p className='mt-4 text-gray-500 sm:text-xl sm:max-w-md mx-auto text-center'>
-              Some of our solutions have been successfully implemented by
-              government agencies of bangladesh.
+              Some of our solutions have been successfully implemented by local
+              government agencies.
             </p>
           </div>
           <Swiper
