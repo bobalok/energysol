@@ -159,10 +159,15 @@ export default function Sixtype() {
               </h3>
 
               <p className='mt-1 text-base text-gray-300'>
-                Enhancing the country&apos;s power generation infrastructures to
-                produce more renewable energy as we know Solar energy is widely
-                available and unlimited. No air or water pollution is given off
-                when solar panels are used for energy production
+                We import best quality fertilizer (in bulk) from other countries
+                like India, China, Russia and America. As we know fertilizer is
+                an important input for agriculture production, we’re also a
+                proud member of Bangladesh Fertilizer Association
+                {/* The fertilizer industry is one of the most important sectors in
+                the agriculture sector of a country. Fertilizer helps in the
+                growth of plants and crops. The bulk import of fertilizer is
+                more beneficial for developing countries because it reduces the
+                cost of production and provides better quality products. */}
               </p>
             </a>
           </div>
