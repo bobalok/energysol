@@ -26,8 +26,8 @@ export default function Clients() {
               </span>{" "}
             </h2>
             <p className='mt-4 text-gray-500 sm:text-xl sm:max-w-md mx-auto text-center'>
-              Some of our solutions have been successfully implemented by local
-              government agencies.
+              Some of our solutions have been successfully implemented by the
+              local government agencies.
             </p>
           </div>
           <Swiper
@@ -50,10 +50,10 @@ export default function Clients() {
                 alt='Dhaka Electric Supply Company Limited'
                 // width={120} automatically provided
                 // height={100} automatically provided
-                blurDataURL='data:...' // automatically provided
+                // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>
+              <p className='hidden sm:block text-center text-gray-400'>
                 Dhaka Electric Supply Company Limited
               </p>
             </SwiperSlide>
@@ -66,7 +66,7 @@ export default function Clients() {
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>
+              <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Power Development Board
               </p>
             </SwiperSlide>
@@ -79,7 +79,7 @@ export default function Clients() {
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>
+              <p className='hidden sm:block text-center text-gray-400'>
                 West Zone Power Distribution Company
               </p>
             </SwiperSlide>
@@ -92,7 +92,9 @@ export default function Clients() {
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>Dhaka WASA</p>
+              <p className='hidden sm:block text-center text-gray-400'>
+                Dhaka WASA
+              </p>
             </SwiperSlide>
             <SwiperSlide>
               <Image
@@ -103,7 +105,7 @@ export default function Clients() {
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>
+              <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Machine Tools Factory
               </p>
             </SwiperSlide>
