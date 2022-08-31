@@ -59,11 +59,9 @@ export default function Slider() {
               src={slider1}
               alt='Ashuganj Power Station Company Ltd. site image'
               layout='fill'
-              // width={700}
-              // height={475}
               objectFit='cover'
-              // priority
               quality='70'
+              placeholder='blur' // Optional blur-up while loading
             />
             <div className='block inset-0 absolute bg-zinc-900 bg-opacity-50'></div>
             <div className='relative max-w-screen-xl px-4 py-44 mx-auto lg:h-screen lg:items-center lg:flex'>
@@ -95,11 +93,9 @@ export default function Slider() {
               src={slider2}
               alt='North West Power Generation Company Limited (NWPGCL)'
               layout='fill'
-              // width={700}
-              // height={475}
               objectFit='cover'
-              // priority
               quality='70'
+              placeholder='blur' // Optional blur-up while loading
             />
             <div className='block inset-0 absolute bg-zinc-900 bg-opacity-50'></div>
             <div className='relative max-w-screen-xl px-4 py-44 mx-auto lg:h-screen lg:items-center lg:flex'>
@@ -131,11 +127,9 @@ export default function Slider() {
               src={slider3}
               alt='North West Power Generation Company Limited (NWPGCL)'
               layout='fill'
-              // width={700}
-              // height={475}
               objectFit='cover'
-              // priority
               quality='70'
+              placeholder='blur' // Optional blur-up while loading
             />
             <div className='block inset-0 absolute bg-zinc-900 bg-opacity-50'></div>
             <div className='relative max-w-screen-xl px-4 py-44 mx-auto lg:h-screen lg:items-center lg:flex'>
@@ -166,11 +160,9 @@ export default function Slider() {
               src={slider4}
               alt='North West Power Generation Company Limited (NWPGCL)'
               layout='fill'
-              // width={700}
-              // height={475}
               objectFit='cover'
-              // priority
               quality='70'
+              placeholder='blur' // Optional blur-up while loading
             />
             <div className='block inset-0 absolute bg-zinc-900 bg-opacity-50'></div>
             <div className='relative max-w-screen-xl px-4 py-44 mx-auto lg:h-screen lg:items-center lg:flex'>

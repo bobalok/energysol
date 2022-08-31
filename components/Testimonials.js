@@ -20,13 +20,12 @@ export default function Testimonials() {
                 <Image
                   className=''
                   src={mdPhoto}
-                  alt=''
+                  alt='Arif I.Z Rahman Photo'
                   layout='fill'
-                  //   width={277}
-                  //   height={277}
                   objectFit='contain'
-                  // priority
                   quality='70'
+                  // blurDataURL='data:...' // automatically provided
+                  placeholder='blur' // Optional blur-up while loading
                 />
               </div>
 
@@ -37,11 +36,11 @@ export default function Testimonials() {
 
             <blockquote className='sm:col-span-2'>
               <p className='text-xl font-medium sm:text-2xl sm:text-justify'>
-                Our integrity, transparency, and sincerity enabled us to build
-                long-term relationships with our foreign and local partners. Our
-                achievement proves our growth. We believe in Team Work, Let us
-                join our hands, grow together, and fulfill our goals and
-                commitment.
+                &quot;Our integrity, transparency, and sincerity enabled us to
+                build long-term relationships with our foreign and local
+                partners. Our achievement proves our growth. We believe in Team
+                Work, Let us join our hands, grow together, and fulfill our
+                goals and commitment&quot;
               </p>
 
               <cite className='inline-flex items-center mt-8 not-italic'>

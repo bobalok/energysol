@@ -18,7 +18,7 @@ export default function Clients() {
   return (
     <>
       <section>
-        <div className='px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:px-8'>
+        <div className='px-4 py-12 lg:pb-20 mx-auto max-w-screen-xl sm:px-6 lg:px-8'>
           <div className='max-w-3xl mx-auto text-center py-12'>
             <h2 className='text-3xl font-bold text-gray-900 sm:text-4xl'>
               <span className='relative inline-block'>
@@ -61,7 +61,7 @@ export default function Clients() {
                 alt='Bangladesh Power Development Board'
                 // width={120} automatically provided
                 // height={100} automatically provided
-                blurDataURL='data:...' // automatically provided
+                // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
               <p className='text-center text-gray-400'>BPDB</p>
@@ -72,7 +72,7 @@ export default function Clients() {
                 alt='West Zone Power Distribution Company'
                 // width={120} automatically provided
                 // height={100} automatically provided
-                blurDataURL='data:...' // automatically provided
+                // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
               <p className='text-center text-gray-400'>WZPDCL</p>
@@ -83,7 +83,7 @@ export default function Clients() {
                 alt='Dhaka WASA'
                 // width={120} automatically provided
                 // height={100} automatically provided
-                blurDataURL='data:...' // automatically provided
+                // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
               <p className='text-center text-gray-400'>Dhaka WASA</p>
@@ -94,7 +94,7 @@ export default function Clients() {
                 alt='Bangladesh Machine Tools Factory'
                 // width={120} automatically provided
                 // height={100} automatically provided
-                blurDataURL='data:...' // automatically provided
+                // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
               <p className='text-center text-gray-400'>BMTF</p>
