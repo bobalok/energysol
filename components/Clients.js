@@ -15,11 +15,11 @@ import {
 } from "swiper";
 
 import Image from "next/image";
-import comp1 from "../public/images/clients-logos/1.png";
-import comp2 from "../public/images/clients-logos/2.png";
-import comp3 from "../public/images/clients-logos/3.png";
-import comp4 from "../public/images/clients-logos/4.png";
-import comp5 from "../public/images/clients-logos/5.png";
+import comp1 from "../public/images/clients-logos/comp_desco.png";
+import comp2 from "../public/images/clients-logos/comp_bpdb.png";
+import comp3 from "../public/images/clients-logos/comp_wzpdcl.png";
+import comp4 from "../public/images/clients-logos/comp_dwasa.png";
+import comp5 from "../public/images/clients-logos/comp_bmtf.png";
 
 export default function Clients() {
   return (
@@ -33,8 +33,8 @@ export default function Clients() {
               </span>{" "}
             </h2>
             <p className='mt-4 text-gray-500 sm:text-xl sm:max-w-md mx-auto text-center'>
-              Our solutions have been successfully implemented by Bangladeshi
-              government agencies.
+              Some of our solutions have been successfully implemented by
+              government agencies of bangladesh.
             </p>
           </div>
           <Swiper
@@ -64,7 +64,7 @@ export default function Clients() {
               <Image
                 className=''
                 src={comp1}
-                alt=''
+                alt='Dhaka Electric Supply Company Limited'
                 layout='intrinsic'
                 width={120}
                 height={100}
@@ -78,7 +78,7 @@ export default function Clients() {
               <Image
                 className=''
                 src={comp2}
-                alt=''
+                alt='Bangladesh Power Development Board'
                 layout='intrinsic'
                 width={120}
                 height={100}
@@ -91,7 +91,7 @@ export default function Clients() {
               <Image
                 className=''
                 src={comp3}
-                alt=''
+                alt='West Zone Power Distribution Company'
                 layout='intrinsic'
                 width={120}
                 height={100}
@@ -104,7 +104,7 @@ export default function Clients() {
               <Image
                 className=''
                 src={comp4}
-                alt=''
+                alt='Dhaka WASA'
                 layout='intrinsic'
                 width={120}
                 height={100}
@@ -117,7 +117,7 @@ export default function Clients() {
               <Image
                 className=''
                 src={comp5}
-                alt=''
+                alt='Bangladesh Machine Tools Factory'
                 layout='intrinsic'
                 width={120}
                 height={100}

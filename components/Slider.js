@@ -48,7 +48,9 @@ export default function Slider() {
           effect='fade'
           slidesPerView={1}
           // navigation
-          pagination={{ clickable: true }}
+          pagination={{
+            clickable: true,
+          }}
         >
           {/* slider1 */}
           <SwiperSlide>
