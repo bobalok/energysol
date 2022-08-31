@@ -53,7 +53,9 @@ export default function Clients() {
                 blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>DESCO</p>
+              <p className='text-center text-gray-400'>
+                Dhaka Electric Supply Company Limited
+              </p>
             </SwiperSlide>
             <SwiperSlide>
               <Image
@@ -64,7 +66,9 @@ export default function Clients() {
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>BPDB</p>
+              <p className='text-center text-gray-400'>
+                Bangladesh Power Development Board
+              </p>
             </SwiperSlide>
             <SwiperSlide>
               <Image
@@ -75,7 +79,9 @@ export default function Clients() {
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>WZPDCL</p>
+              <p className='text-center text-gray-400'>
+                West Zone Power Distribution Company
+              </p>
             </SwiperSlide>
             <SwiperSlide>
               <Image
@@ -97,7 +103,9 @@ export default function Clients() {
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
               />
-              <p className='text-center text-gray-400'>BMTF</p>
+              <p className='text-center text-gray-400'>
+                Bangladesh Machine Tools Factory
+              </p>
             </SwiperSlide>
             {/* <SwiperSlide>Slide 6</SwiperSlide>
             <SwiperSlide>Slide 7</SwiperSlide>
