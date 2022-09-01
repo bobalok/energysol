@@ -1,32 +1,31 @@
+import { useForm, ValidationError } from "@formspree/react";
+import ReCAPTCHA from "react-google-recaptcha";
 export default function Contact() {
-  async function handleOnSubmit(e) {
-    e.preventDefault();
+  const [state, handleSubmit] = useForm("mvoygeoz");
 
-    const formData = {};
+  // const handleChange() => {
 
-    Array.from(e.currentTarget.elements).forEach((field) => {
-      if (!field.name) return;
-      formData[field.name] = field.value;
-    });
+  // };
 
-    await fetch("/api/mail", {
-      method: "POST",
-      body: JSON.stringify(formData),
-    });
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
   }
   return (
     <>
-      <section id='contact' className=' text-gray-600'>
-        <div className='bg-hero-pattern bg-hero-size max-w-screen-xl px-4 md:py-16 pb-6 mx-auto sm:px-6 lg:px-8'>
-          <div className='grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5'>
-            <div className='lg:py-12 lg:col-span-2'>
-              <p className='mt-6 uppercase'>CONTACT US</p>
-              <h1 className='text-3xl font-bold sm:text-5xl'>
-                Send us an email
-              </h1>
+      <section
+        id='contact'
+        className='max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8 '
+      >
+        <div className=' rounded-xl shadow-xl border border-gray-200'>
+          <div className='grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5 '>
+            <div className='lg:py-12 p-8 lg:col-span-2'>
+              {/* <p className='mt-6 uppercase'>CONTACT US</p> */}
+              <h1 className='text-3xl font-bold sm:text-5xl'>Send us a mail</h1>
               <p className='max-w-xl text-lg mt-6'>
-                Your telecom services don’t take a break – and neither do we!
-                We’re happy to be available 24/7 for any questions or concerns.
+                We would love to hear more about your goals and how we can help
+                you achieve them. If you have any questions about our business,
+                please let us know. We&rsquo;ll do our best to respond as soon
+                as possible.
               </p>
               <br />
               <strong className='max-w-xl text-lg mt-6'>
@@ -51,19 +50,15 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className='p-8 bg-white rounded-lg drop-shadow-2xl lg:p-12 lg:col-span-3'>
-              <form
-                method='post'
-                className='space-y-4'
-                onSubmit={handleOnSubmit}
-              >
+            <div className='p-8 bg-white rounded-xl lg:p-12 lg:col-span-3'>
+              <form method='post' className='space-y-4' onSubmit={handleSubmit}>
                 <div>
                   <label className='sr-only' htmlFor='name'>
                     Name
                   </label>
                   <input
                     className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                    placeholder='Name*'
+                    placeholder='Name'
                     type='text'
                     id='name'
                     required
@@ -76,10 +71,15 @@ export default function Contact() {
                     </label>
                     <input
                       className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                      placeholder='Email address*'
+                      placeholder='Email address'
                       type='email'
                       id='email'
                       required
+                    />
+                    <ValidationError
+                      prefix='Email'
+                      field='email'
+                      errors={state.errors}
                     />
                   </div>
 
@@ -89,14 +89,14 @@ export default function Contact() {
                     </label>
                     <input
                       className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                      placeholder='Phone Number*'
+                      placeholder='Phone Number'
                       type='tel'
                       id='phone'
                       required
                     />
                   </div>
                 </div>
-                <div className='grid grid-cols-1 gap-4 text-center sm:grid-cols-3 p-3 border border-gray-200 rounded-lg'>
+                {/* <div className='grid grid-cols-1 gap-4 text-center sm:grid-cols-3 p-3 border border-gray-200 rounded-lg'>
                   <div className='flex'>
                     <input
                       id='option-1'
@@ -160,23 +160,32 @@ export default function Contact() {
                       </span>
                     </label>
                   </div>
-                </div>
-
+                </div> */}
                 <div>
                   <label className='sr-only' htmlFor='message'>
                     Message
                   </label>
                   <textarea
                     className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                    placeholder='Compose your inquiry here'
+                    placeholder='Compose your mail or inquiry here'
                     rows='8'
                     id='message'
                     required
-                  ></textarea>
+                  />
+                  <ValidationError
+                    prefix='Message'
+                    field='message'
+                    errors={state.errors}
+                  />
                 </div>
+                <ReCAPTCHA
+                  sitekey='6Lf9d8UhAAAAAKl6aMfJMcVHg8Mav6gz1IKwu3BF'
+                  // onChange={handleChange}
+                />
                 <div className='mt-4'>
                   <button
                     type='submit'
+                    disabled={state.submitting}
                     className='inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto'
                   >
                     <span className='font-bold text-lg'> Send Enquiry </span>
