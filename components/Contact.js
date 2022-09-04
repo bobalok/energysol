@@ -1,12 +1,7 @@
 import { useForm, ValidationError } from "@formspree/react";
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 export default function Contact() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
-
-  // const handleChange() => {
-
-  // };
-  // console.log(useForm);
 
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
@@ -52,50 +47,40 @@ export default function Contact() {
             </div>
 
             <div className='p-8 bg-white rounded-xl lg:p-12 lg:col-span-3'>
-              <form method='post' className='space-y-4' onSubmit={handleSubmit}>
-                <div>
-                  <label className='sr-only' htmlFor='name'>
-                    Name
+              <form className='space-y-4' onSubmit={handleSubmit}>
+                <label className='sr-only' htmlFor='name'>
+                  Name
+                </label>
+                <input
+                  className='w-full p-3 text-sm border border-gray-200 rounded-lg'
+                  placeholder='Name'
+                  type='text'
+                  id='name'
+                  required
+                />
+
+                <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
+                  <label className='sr-only' htmlFor='email'>
+                    Email
                   </label>
                   <input
                     className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                    placeholder='Name'
-                    type='text'
-                    id='name'
+                    placeholder='Email address'
+                    type='email'
+                    id='email'
                     required
                   />
-                </div>
-                <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
-                  <div>
-                    <label className='sr-only' htmlFor='email'>
-                      Email
-                    </label>
-                    <input
-                      className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                      placeholder='Email address'
-                      type='email'
-                      id='email'
-                      required
-                    />
-                    <ValidationError
-                      prefix='Email'
-                      field='email'
-                      errors={state.errors}
-                    />
-                  </div>
 
-                  <div>
-                    <label className='sr-only' htmlFor='phone'>
-                      Phone
-                    </label>
-                    <input
-                      className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                      placeholder='Phone Number'
-                      type='tel'
-                      id='phone'
-                      required
-                    />
-                  </div>
+                  <label className='sr-only' htmlFor='phone'>
+                    Phone
+                  </label>
+                  <input
+                    className='w-full p-3 text-sm border border-gray-200 rounded-lg'
+                    placeholder='Phone Number'
+                    type='tel'
+                    id='phone'
+                    required
+                  />
                 </div>
                 {/* <div className='grid grid-cols-1 gap-4 text-center sm:grid-cols-3 p-3 border border-gray-200 rounded-lg'>
                   <div className='flex'>
@@ -162,23 +147,23 @@ export default function Contact() {
                     </label>
                   </div>
                 </div> */}
-                <div>
-                  <label className='sr-only' htmlFor='message'>
-                    Message
-                  </label>
-                  <textarea
-                    className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                    placeholder='Compose your mail or inquiry here'
-                    rows='8'
-                    id='message'
-                    required
-                  />
-                  <ValidationError
-                    prefix='Message'
-                    field='message'
-                    errors={state.errors}
-                  />
-                </div>
+
+                <label className='sr-only' htmlFor='message'>
+                  Message
+                </label>
+                <textarea
+                  className='w-full p-3 text-sm border border-gray-200 rounded-lg'
+                  placeholder='Compose your mail or inquiry here'
+                  rows='8'
+                  id='message'
+                  required
+                />
+                <ValidationError
+                  prefix='Message'
+                  field='message'
+                  errors={state.errors}
+                />
+
                 {/* <ReCAPTCHA
                   sitekey=''
                   onChange={handleChange}
@@ -189,9 +174,21 @@ export default function Contact() {
                     disabled={state.submitting}
                     className='inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto'
                   >
-                    <span className='font-bold text-lg'> Send Enquiry </span>
+                    <span className='font-bold text-lg'>
+                      {!state.submitting ? (
+                        !state.submitted ? (
+                          "Send"
+                        ) : (
+                          <span className='font-bold text-lg text-green-500'>
+                            Mail Sent
+                          </span>
+                        )
+                      ) : (
+                        "Sending..."
+                      )}
+                    </span>
 
-                    {/* <svg
+                    <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='w-5 h-5 ml-3'
                       fill='none'
@@ -199,13 +196,14 @@ export default function Contact() {
                       stroke='currentColor'
                     >
                       <path
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
-                        stroke-width='2'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='2'
                         d='M14 5l7 7m0 0l-7 7m7-7H3'
                       />
-                    </svg> */}
+                    </svg>
                   </button>
+                  <ValidationError errors={state.errors} className='mt-5' />
                 </div>
               </form>
             </div>
