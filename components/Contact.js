@@ -179,10 +179,10 @@ export default function Contact() {
                     errors={state.errors}
                   />
                 </div>
-                <ReCAPTCHA
-                  sitekey='6Lf9d8UhAAAAAKl6aMfJMcVHg8Mav6gz1IKwu3BF'
-                  // onChange={handleChange}
-                />
+                {/* <ReCAPTCHA
+                  sitekey=''
+                  onChange={handleChange}
+                /> */}
                 <div className='mt-4'>
                   <button
                     type='submit'
