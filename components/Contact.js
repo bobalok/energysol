@@ -1,11 +1,12 @@
 import { useForm, ValidationError } from "@formspree/react";
 import ReCAPTCHA from "react-google-recaptcha";
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mvoygeoz");
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
 
   // const handleChange() => {
 
   // };
+  // console.log(useForm);
 
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
