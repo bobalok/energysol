@@ -20,7 +20,7 @@ const defaultNavigation = [
   // { name: "Blog", href: "#", current: false },
   { name: "Home", href: "/", current: false },
   { name: "Portfolio", href: "#!", current: false },
-  { name: "Contact", href: "#!", current: false },
+  { name: "Contact", href: "#contact", current: false },
   { name: "Partners", href: "#!", current: false },
   //   { name: "More", href: "#whyus", current: false },
   // { name: "F.A.Q", href: "/", current: false },
