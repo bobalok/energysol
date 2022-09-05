@@ -1,5 +1,19 @@
 export default function Contact() {
   // mail functions goes here
+  async function handleOnSubmit(e) {
+    e.preventDefault();
+
+    const formData = {};
+
+    Array.from(e.currentTarget.elements).forEach((field) => {
+      if (!field.type) return;
+      formData[field.type] = field.value;
+    });
+    await fetch("/api/mail", {
+      method: "POST",
+      body: JSON.stringify(formData),
+    });
+  }
 
   return (
     <>
@@ -42,45 +56,40 @@ export default function Contact() {
             </div>
 
             <div className='p-8 bg-white rounded-xl lg:p-12 lg:col-span-3'>
-              <form className='space-y-4'>
-                <div>
-                  <label className='sr-only' htmlFor='name'>
-                    Name
+              <form className='space-y-4' onSubmit={handleOnSubmit}>
+                <label className='sr-only' htmlFor='name'>
+                  Name
+                </label>
+                <input
+                  className='w-full p-3 text-sm border border-gray-200 rounded-lg'
+                  placeholder='Name'
+                  type='text'
+                  id='name'
+                  required
+                />
+
+                <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
+                  <label className='sr-only' htmlFor='email'>
+                    Email
                   </label>
                   <input
                     className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                    placeholder='Name'
-                    type='text'
-                    id='name'
+                    placeholder='Email address'
+                    type='email'
+                    id='email'
                     required
                   />
-                </div>
-                <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
-                  <div>
-                    <label className='sr-only' htmlFor='email'>
-                      Email
-                    </label>
-                    <input
-                      className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                      placeholder='Email address'
-                      type='email'
-                      id='email'
-                      required
-                    />
-                  </div>
 
-                  <div>
-                    <label className='sr-only' htmlFor='phone'>
-                      Phone
-                    </label>
-                    <input
-                      className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                      placeholder='Phone Number'
-                      type='tel'
-                      id='phone'
-                      required
-                    />
-                  </div>
+                  <label className='sr-only' htmlFor='phone'>
+                    Phone
+                  </label>
+                  <input
+                    className='w-full p-3 text-sm border border-gray-200 rounded-lg'
+                    placeholder='Phone Number'
+                    type='tel'
+                    id='phone'
+                    required
+                  />
                 </div>
                 {/* <div className='grid grid-cols-1 gap-4 text-center sm:grid-cols-3 p-3 border border-gray-200 rounded-lg'>
                   <div className='flex'>
@@ -147,45 +156,57 @@ export default function Contact() {
                     </label>
                   </div>
                 </div> */}
-                <div>
-                  <label className='sr-only' htmlFor='message'>
-                    Message
-                  </label>
-                  <textarea
-                    className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                    placeholder='Compose your mail or inquiry here'
-                    rows='8'
-                    id='message'
-                    required
-                  />
-                </div>
+
+                <label className='sr-only' htmlFor='message'>
+                  Message
+                </label>
+                <textarea
+                  className='w-full p-3 text-sm border border-gray-200 rounded-lg'
+                  placeholder='Compose your mail or inquiry here'
+                  rows='8'
+                  id='message'
+                  required
+                />
+
                 {/* <ReCAPTCHA
                   sitekey='6Lf9d8UhAAAAAKl6aMfJMcVHg8Mav6gz1IKwu3BF'
                   onChange={handleChange}
                 /> */}
-                <div className='mt-4'>
-                  <button
-                    type='submit'
-                    className='inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto'
-                  >
-                    <span className='font-bold text-lg'>SEND</span>
 
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      className='w-5 h-5 ml-3'
-                      fill='none'
-                      viewBox='0 0 24 24'
-                      stroke='currentColor'
-                    >
-                      <path
-                        strokeLinecap='round'
-                        strokeLinejoin='round'
-                        strokeWidth='2'
-                        d='M14 5l7 7m0 0l-7 7m7-7H3'
-                      />
-                    </svg>
-                  </button>
-                </div>
+                <button
+                  type='submit'
+                  className='inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto'
+                >
+                  <span className='font-bold text-lg'>SEND</span>
+                  {/* <span className='font-bold text-lg'>
+                    {!state.submitting ? (
+                      !state.submitted ? (
+                        "Send"
+                      ) : (
+                        <span className='font-bold text-lg text-green-500'>
+                          Mail Sent
+                        </span>
+                      )
+                    ) : (
+                      "Sending..."
+                    )}
+                  </span> */}
+
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='w-5 h-5 ml-3'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth='2'
+                      d='M14 5l7 7m0 0l-7 7m7-7H3'
+                    />
+                  </svg>
+                </button>
               </form>
             </div>
           </div>
