@@ -1,15 +1,84 @@
+import React, { useState } from "react";
+import axios from "axios";
+
+import {
+  CheckIcon,
+  ChevronDoubleRightIcon,
+  ArrowNarrowRightIcon,
+} from "@heroicons/react/solid";
+
 export default function Contact() {
   // mail functions goes here
-
+  const form_id = process.env.NEXT_PUBLIC_FORM;
+  const [status, setStatus] = useState({
+    submitted: false,
+    submitting: false,
+    info: { error: false, msg: null },
+  });
+  const [inputs, setInputs] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const handleServerResponse = (ok, msg) => {
+    if (ok) {
+      setStatus({
+        submitted: true,
+        submitting: false,
+        info: { error: false, msg: msg },
+      });
+      setInputs({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    } else {
+      setStatus({
+        info: { error: true, msg: msg },
+      });
+    }
+  };
+  const handleOnChange = (e) => {
+    e.persist();
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+    setStatus({
+      submitted: false,
+      submitting: false,
+      info: { error: false, msg: null },
+    });
+  };
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
+    axios({
+      method: "POST",
+      url: "https://formspree.io/mzbwdeed",
+      data: inputs,
+    })
+      .then((response) => {
+        handleServerResponse(
+          true,
+          "Thank you, your message has been submitted."
+        );
+      })
+      .catch((error) => {
+        handleServerResponse(false, error.response.data.error);
+      });
+  };
   return (
     <>
       <section
         id='contact'
-        className='max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8 '
+        className='max-w-screen-xl px-4 mx-auto md:py-16 sm:px-6 lg:px-8 '
       >
         <div className=' rounded-xl shadow-xl border border-gray-200'>
-          <div className='grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5 '>
-            <div className='lg:py-12 p-8 lg:col-span-2'>
+          <div className='grid grid-cols-1 gap-x-16 sm:gap-y-8 lg:grid-cols-5 '>
+            <div className='sm:py-12 p-8 lg:col-span-2'>
               {/* <p className='mt-6 uppercase'>CONTACT US</p> */}
               <h1 className='text-3xl font-bold sm:text-5xl'>Send us a mail</h1>
               <p className='max-w-xl text-lg mt-6'>
@@ -33,16 +102,11 @@ export default function Contact() {
                   {" "}
                   +8802 222262118{" "}
                 </a>
-
-                <address className='mt-2 not-italic text-white'>
-                  Registered Office : 105 S.R. Tower, 8th Floor, Uttara
-                  Commercial Area, Sector-7, Uttara, Dhaka-1230.
-                </address>
               </div>
             </div>
 
             <div className='p-8 bg-white rounded-xl lg:p-12 lg:col-span-3'>
-              <form className='space-y-4'>
+              <form className='space-y-4' onSubmit={handleOnSubmit}>
                 <div>
                   <label className='sr-only' htmlFor='name'>
                     Name
@@ -53,6 +117,8 @@ export default function Contact() {
                     type='text'
                     id='name'
                     required
+                    onChange={handleOnChange}
+                    value={inputs.name}
                   />
                 </div>
                 <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
@@ -66,6 +132,8 @@ export default function Contact() {
                       type='email'
                       id='email'
                       required
+                      onChange={handleOnChange}
+                      value={inputs.email}
                     />
                   </div>
 
@@ -79,6 +147,8 @@ export default function Contact() {
                       type='tel'
                       id='phone'
                       required
+                      onChange={handleOnChange}
+                      value={inputs.phone}
                     />
                   </div>
                 </div>
@@ -157,6 +227,8 @@ export default function Contact() {
                     rows='8'
                     id='message'
                     required
+                    onChange={handleOnChange}
+                    value={inputs.message}
                   />
                 </div>
                 {/* <ReCAPTCHA
@@ -166,11 +238,35 @@ export default function Contact() {
                 <div className='mt-4'>
                   <button
                     type='submit'
-                    className='inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto'
+                    disabled={status.submitting}
+                    className='inline-flex items-center justify-center w-full px-5 py-3 font-bold text-white bg-black rounded-lg sm:w-auto'
                   >
-                    <span className='font-bold text-lg'>Send</span>
+                    {!status.submitting ? (
+                      !status.submitted ? (
+                        <span className='font-bold transition-colors flex items-center'>
+                          Submit
+                          <ArrowNarrowRightIcon
+                            className=' w-5 h-5 ml-3'
+                            fill='currentColor'
+                          />
+                        </span>
+                      ) : (
+                        <span className='text-green-300 font-bold transition-colors flex items-center'>
+                          Submitted
+                          <CheckIcon
+                            className='w-5 h-5 ml-3'
+                            fill='currentColor'
+                          />
+                        </span>
+                      )
+                    ) : (
+                      <span className='font-bold flex items-center'>
+                        Submitting...
+                        <ChevronDoubleRightIcon className=' w-5 h-5 ml-3' />
+                      </span>
+                    )}
 
-                    <svg
+                    {/* <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='w-5 h-5 ml-3'
                       fill='none'
@@ -183,7 +279,7 @@ export default function Contact() {
                         strokeWidth='2'
                         d='M14 5l7 7m0 0l-7 7m7-7H3'
                       />
-                    </svg>
+                    </svg> */}
                   </button>
                 </div>
               </form>
