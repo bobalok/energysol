@@ -28,7 +28,7 @@ import slider4 from "../public/images/slider-images/slider4opt.webp";
 export default function Slider() {
   return (
     <>
-      <div className='relative top-0 w-full mx-auto bg-white'>
+      <div id='home' className='relative top-0 w-full mx-auto bg-white'>
         <Swiper
           className='xl:h-[90vh] h-[92vh]'
           modules={[
