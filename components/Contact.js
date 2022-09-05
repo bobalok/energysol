@@ -168,7 +168,7 @@ export default function Contact() {
                     type='submit'
                     className='inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto'
                   >
-                    <span className='font-bold text-lg'>SEND</span>
+                    <span className='font-bold text-lg'>Send</span>
 
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
