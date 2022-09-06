@@ -18,10 +18,10 @@ const defaultNavigation = [
   // { name: "Residential", href: "/residential", current: false },
   // { name: "Business", href: "/", current: false },
   // { name: "Blog", href: "#", current: false },
-  { name: "Home", href: "#home", current: false },
+  { name: "Home", href: "/", current: false },
   { name: "Portfolio", href: "#!", current: false },
-  { name: "Contact", href: "#contact", current: false },
-  { name: "Partners", href: "#!", current: false },
+  { name: "Contact", href: "/contact", current: false },
+  { name: "Partners", href: "/partners", current: false },
   //   { name: "More", href: "#whyus", current: false },
   // { name: "F.A.Q", href: "/", current: false },
 ];
@@ -111,10 +111,7 @@ export default function Navi() {
                       <Menu.Items className='absolute right-0 w-56 mt-2 origin-top-right backdrop-blur-sm bg-white/90 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
                         <div className='px-4 py-8 flex flex-col space-y-2 text-gray-700 text-base font-bold'>
                           <Menu.Item>
-                            <MyLink
-                              href='/Slider'
-                              className='hover:text-blue-600'
-                            >
+                            <MyLink href='/' className='hover:text-blue-600'>
                               Energy Solution Solar
                             </MyLink>
                           </Menu.Item>

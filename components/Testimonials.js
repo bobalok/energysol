@@ -12,7 +12,7 @@ export default function Testimonials() {
 
   plugins: [require('@tailwindcss/aspect-ratio')] */}
 
-      <div className='max-w-5xl px-4 pt-44 py-12 mx-auto'>
+      <div className='max-w-5xl px-4 pt-36 py-12 mx-auto'>
         <section className='p-8 bg-gray-100 rounded-lg md:drop-shadow-xl md:hover:drop-shadow-2xl transition duration-200'>
           <div className='grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center'>
             <div className='relative'>
