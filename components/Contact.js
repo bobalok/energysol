@@ -57,7 +57,7 @@ export default function Contact() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: "POST",
-      url: "https://formspree.io/mzbwdeed",
+      url: "https://formspree.io/mzbwdeed...",
       data: inputs,
     })
       .then((response) => {
@@ -80,6 +80,7 @@ export default function Contact() {
           <div className='grid grid-cols-1 gap-x-16 sm:gap-y-8 lg:grid-cols-5 '>
             <div className='sm:py-12 p-8 lg:col-span-2'>
               {/* <p className='mt-6 uppercase'>CONTACT US</p> */}
+
               <h1 className='text-3xl font-bold sm:text-5xl'>Send us a mail</h1>
               <p className='max-w-xl text-lg mt-6'>
                 We would love to hear more about your goals and how we can help
@@ -88,15 +89,21 @@ export default function Contact() {
                 as possible.
               </p>
               <br />
-              <strong className='max-w-xl text-lg mt-6'>
+              {/* <strong className='max-w-xl text-lg mt-6'>
                 Please call, chat, e-mail or visit us using the information
                 below. We’re here to help!
-              </strong>
+              </strong> */}
+              <address className='mt-2 not-italic text-gray-700'>
+                <strong>Head Office :</strong> Plot 16, Road 10, Suite SW-4,
+                Gulshan-1, Dhaka-1212, Bangladesh.
+              </address>
 
               <div className='mt-8'>
+                {/* <span>Call</span>
+                <br /> */}
                 <a
                   // href=''
-                  className='text-2xl font-bold text-pink-600'
+                  className='text-2xl font-bold text-blue-500'
                   href='tel:+8802222262118'
                 >
                   {" "}
@@ -283,6 +290,13 @@ export default function Contact() {
                   </button>
                 </div>
               </form>
+
+              {status.info.error && (
+                <div className='error'>Error: {status.info.msg}</div>
+              )}
+              {!status.info.error && status.info.msg && (
+                <p>{status.info.msg}</p>
+              )}
             </div>
           </div>
         </div>
