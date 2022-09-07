@@ -28,7 +28,7 @@ const defaultNavigation = [
 
 const dropdownNavigation = [
   { name: " O&M Support", href: "#!", current: false },
-  { name: "Management", href: "#!", current: false },
+  { name: "Management", href: "/management", current: false },
 ];
 
 function classNames(...classes) {
@@ -111,13 +111,16 @@ export default function Navi() {
                       <Menu.Items className='absolute right-0 w-56 mt-2 origin-top-right backdrop-blur-sm bg-white/90 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
                         <div className='px-4 py-8 flex flex-col space-y-2 text-gray-700 text-base font-bold'>
                           <Menu.Item>
-                            <MyLink href='/' className='hover:text-blue-600'>
+                            <MyLink href='#!' className='hover:text-blue-600'>
                               O&amp;M Support
                             </MyLink>
                           </Menu.Item>
                           <hr />
                           <Menu.Item>
-                            <MyLink href='/' className='hover:text-blue-600'>
+                            <MyLink
+                              href='/management'
+                              className='hover:text-blue-600'
+                            >
                               Management
                             </MyLink>
                           </Menu.Item>

@@ -6,7 +6,7 @@ export default function Stats() {
       <section className='bg-white'>
         <div className='max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8'>
           <div className='max-w-3xl mx-auto text-center'>
-            <h2 className='text-3xl font-bold text-gray-900 sm:text-4xl'>
+            <h2 className='text-3xl font-bold text-gray-700 sm:text-6xl'>
               Trusted by Businesses
             </h2>
 
@@ -25,7 +25,7 @@ export default function Stats() {
                   Ongoing projects
                 </dt>
 
-                <dd className='text-4xl font-extrabold text-blue-600 md:text-5xl'>
+                <dd className='text-4xl font-extrabold text-blue-400 md:text-5xl'>
                   08
                 </dd>
               </div>
@@ -35,7 +35,7 @@ export default function Stats() {
                   Completed projects
                 </dt>
 
-                <dd className='text-4xl font-extrabold text-blue-600 md:text-5xl'>
+                <dd className='text-4xl font-extrabold text-blue-400 md:text-5xl'>
                   107
                 </dd>
               </div>
@@ -45,7 +45,7 @@ export default function Stats() {
                   Satisfiction rate
                 </dt>
 
-                <dd className='text-4xl font-extrabold text-blue-600 md:text-5xl'>
+                <dd className='text-4xl font-extrabold text-blue-400 md:text-5xl'>
                   93%
                 </dd>
               </div>

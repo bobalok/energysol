@@ -39,10 +39,14 @@ export default function Sixtype() {
                 </h3>
 
                 <p className='mt-1 text-base text-gray-300'>
-                  Our team&apos;s vision and mission is to leverage physically
+                  We have a team of experienced and skilled people who are
+                  helping companies to reach their goals by providing them with
+                  best solution they need. We provide the following services:
+                  indentation, market-research, global forecasting models.
+                  {/* Our team&apos;s vision and mission is to leverage physically
                   in office research, indentation, global forecasting models and
                   expertise to advise government and private companies in
-                  strategic issues related to the energy world.
+                  strategic issues related to the energy world. */}
                 </p>
               </a>
             </Link>
@@ -60,7 +64,7 @@ export default function Sixtype() {
                 <p className='mt-1 text-base text-gray-300'>
                   We have been involved in the industry since 2010, we have
                   grown our company from the ground up and now provide
-                  everything from materials for Power Plants, construction,
+                  everything from materials for power plants, construction,
                   agriculture and other suppliable goods.
                 </p>
               </a>

@@ -26,15 +26,16 @@ export default function Partners() {
           <h2 className='text-3xl font-bold sm:text-4xl'>Associate Partners</h2>
 
           <p className='mt-4 text-lg text-gray-500'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod
+            We have found that these partnerships provide us with a competitive
+            advantage by giving us access to new markets and new technologies.
+            We are also able to learn from their expertise and experience.
           </p>
         </div>
         {/* Cards start here */}
         <div className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-3 lg:grid-cols-4'>
-          {/* company1 */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          {/* tbea */}
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -147,8 +148,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* norinco */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -261,8 +262,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* tedagua */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -377,8 +378,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* cmc */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -493,8 +494,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* tsk */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -607,8 +608,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* stx */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -721,8 +722,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* cico */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -837,8 +838,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* benelux */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -951,8 +952,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* crcc */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -1067,8 +1068,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* vebo */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -1181,8 +1182,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* cedc */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -1297,8 +1298,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* acciona */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -1411,8 +1412,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* cobra */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'
@@ -1494,7 +1495,7 @@ export default function Partners() {
                     <div className='sm:ml-3 mt-1.5 sm:mt-0'>
                       <dt className='text-gray-500'>Established </dt>
 
-                      <dd className='font-medium'>1988</dd>
+                      <dd className='font-medium'>1944</dd>
                     </div>
                   </div>
 
@@ -1525,8 +1526,8 @@ export default function Partners() {
             </a>
           </Link>
           {/* sab */}
-          <Link href={""}>
-            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100'>
+          <Link href={"#!"}>
+            <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-md'

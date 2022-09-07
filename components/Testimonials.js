@@ -72,7 +72,7 @@ export default function Testimonials() {
                       clipRule='evenodd'
                     />
                   </svg>
-                  <span>Available on LinkedIn</span>
+                  <span>LinkedIn</span>
                 </a>
               </div>
             </blockquote>

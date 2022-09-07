@@ -77,6 +77,10 @@ export default function Contact() {
         className='max-w-screen-xl px-4 mx-auto md:py-16 sm:px-6 lg:px-8 '
       >
         <div className=' rounded-xl shadow-xl border border-gray-200'>
+          <span className='flex float-right h-3 w-3'>
+            <span className='animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75'></span>
+            <span className='relative inline-flex rounded-full h-3 w-3 bg-sky-500'></span>
+          </span>
           <div className='grid grid-cols-1 gap-x-16 sm:gap-y-8 lg:grid-cols-5 '>
             <div className='sm:py-12 p-8 lg:col-span-2'>
               {/* <p className='mt-6 uppercase'>CONTACT US</p> */}
@@ -103,7 +107,7 @@ export default function Contact() {
                 <br /> */}
                 <a
                   // href=''
-                  className='text-2xl font-bold text-blue-500'
+                  className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-sky-700 to-sky-500'
                   href='tel:+8802222262118'
                 >
                   {" "}
@@ -250,15 +254,15 @@ export default function Contact() {
                   >
                     {!status.submitting ? (
                       !status.submitted ? (
-                        <span className='font-bold transition-colors flex items-center'>
+                        <span className='font-bold flex items-center'>
                           Submit
                           <ArrowNarrowRightIcon
-                            className=' w-5 h-5 ml-3'
+                            className='w-5 h-5 ml-3'
                             fill='currentColor'
                           />
                         </span>
                       ) : (
-                        <span className='text-green-300 font-bold transition-colors flex items-center'>
+                        <span className='text-green-300 font-bold flex items-center'>
                           Submitted
                           <CheckIcon
                             className='w-5 h-5 ml-3'
