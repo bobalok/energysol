@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# Local README text file
+.README.txt
+
+
 # testing
 /coverage
 
