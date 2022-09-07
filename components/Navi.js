@@ -27,7 +27,7 @@ const defaultNavigation = [
 ];
 
 const dropdownNavigation = [
-  { name: "Energy Solution Solar", href: "#!", current: false },
+  { name: " O&M Support", href: "#!", current: false },
   { name: "Management", href: "#!", current: false },
 ];
 
@@ -112,7 +112,7 @@ export default function Navi() {
                         <div className='px-4 py-8 flex flex-col space-y-2 text-gray-700 text-base font-bold'>
                           <Menu.Item>
                             <MyLink href='/' className='hover:text-blue-600'>
-                              Energy Solution Solar
+                              O&amp;M Support
                             </MyLink>
                           </Menu.Item>
                           <hr />
