@@ -1,6 +1,5 @@
 import Head from "next/head";
-
-import React from "react";
+import Portfolio from "../components/Portfolio";
 
 export default function portfolio() {
   return (
@@ -10,9 +9,7 @@ export default function portfolio() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div className='top-0 w-full mx-auto bg-white'>
-        <div></div>
-      </div>
+      <Portfolio />
     </>
   );
 }

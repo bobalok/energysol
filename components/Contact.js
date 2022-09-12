@@ -254,10 +254,10 @@ export default function Contact() {
                   >
                     {!status.submitting ? (
                       !status.submitted ? (
-                        <span className='font-bold flex items-center'>
+                        <span className='font-bold inline-flex items-center'>
                           Submit
                           <ArrowNarrowRightIcon
-                            className='w-5 h-5 ml-3'
+                            className='w-5 h-5 ml-3 transition-transform transform group-hover:translate-x-3'
                             fill='currentColor'
                           />
                         </span>

@@ -19,7 +19,7 @@ const defaultNavigation = [
   // { name: "Business", href: "/", current: false },
   // { name: "Blog", href: "#", current: false },
   { name: "Home", href: "/", current: false },
-  { name: "Portfolio", href: "#!", current: false },
+  { name: "Portfolio", href: "/portfolio", current: false },
   { name: "Contact", href: "/contact", current: false },
   { name: "Partners", href: "/partners", current: false },
   //   { name: "More", href: "#whyus", current: false },

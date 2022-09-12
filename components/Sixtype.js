@@ -20,6 +20,11 @@ export default function Sixtype() {
             </h2>
 
             <p className='mt-4 text-base text-gray-300'>
+              {/* ESEL is a company that specializes in engineering, procurement,
+              and construction services. The company provides the public with
+              construction consulting and engineering design for buildings,
+              roads, bridges and other infrastructure projects. ESEL’s clients
+              include government agencies as well as private sector companies. */}
               We are good at solving problems. Problems are everywhere. We solve
               them everyday. We are always looking for ways to improve ourselves
               and our surroundings.
@@ -150,7 +155,7 @@ export default function Sixtype() {
             </Link>
           </div>
 
-          <div className='mt-12 text-center'>
+          {/* <div className='mt-12 text-center'>
             <Link href={"#!"}>
               <a className='inline-flex items-center px-8 py-3 mt-8 text-white bg-blue-600 border border-blue-600 rounded hover:bg-transparent active:text-blue-400 focus:outline-none focus:ring'>
                 <span className='text-base font-medium'> Know us more </span>
@@ -170,7 +175,7 @@ export default function Sixtype() {
                 </svg>
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
