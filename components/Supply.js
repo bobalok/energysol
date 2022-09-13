@@ -1,38 +1,34 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import APSCL_N from "../public/images/epc-images/comp_apscl_north.jpg";
-import APSCL_S from "../public/images/epc-images/comp_apscl_south.jpg";
-import NWPGCL_PAYRA from "../public/images/epc-images/comp_nwpgcl_payra.jpg";
-import UNIT2 from "../public/images/epc-images/comp_nwpgcl_unit2.jpg";
-import UNIT3 from "../public/images/epc-images/comp_nwpgcl_unit3.jpg";
-import SUB33KV from "../public/images/epc-images/comp_many_rehab.jpg";
-import SUBGIS from "../public/images/epc-images/comp_apscl_gis_ns.jpg";
+import UCABLE from "../public/images/supply-images/comp_xlpe_desco.jpg";
+import HMCRANE from "../public/images/supply-images/comp_xmcg_bapex.png";
+import FORKL from "../public/images/supply-images/comp_tcm_bapex.jpg";
+import HMCRANE2 from "../public/images/supply-images/comp_powerplus_bapex.jpg";
+import TSWITCHGEAR from "../public/images/supply-images/comp_tamco_many.jpg";
+import TVINTERRUPTER from "../public/images/supply-images/comp_tvi_wzpdcl.jpg";
+import STONE from "../public/images/supply-images/comp_stone_many.jpg";
 
 export default function Portfolio() {
   return (
     <>
       <section className='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
         <div className='max-w-2xl mx-auto text-center'>
-          <h2 className='text-3xl font-bold sm:text-4xl'>
-            TURNKEY EPC Project
-          </h2>
+          <h2 className='text-3xl font-bold sm:text-4xl'>SUPPLY WORKS</h2>
 
           <p className='mt-4 text-lg text-gray-500'>
-            The company has been executing many notable projects in association
-            with its foreign partners and is one of the most trusted names in
-            the industry.
+            IMPORT | EXPORT | DISTRIBUTION
           </p>
         </div>
         <div className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3'>
-          {/* APSCL NORTH */}
+          {/* UCABLE */}
           <Link href={"#!"}>
             <a className='block rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-t-lg'
-                  src={APSCL_N}
-                  alt='cobra'
+                  src={UCABLE}
+                  alt='XLPE 33/11 kv PVC Copper Cable | DESCO'
                   //   height={170}
                   //   width={255}
                   //   layout='intrinsic'
@@ -46,13 +42,13 @@ export default function Portfolio() {
               <div className='mt-2 px-4'>
                 <dl>
                   <div>
-                    <dt className='sr-only'>Client Name</dt>
+                    <dt className='sr-only'>Supply Type</dt>
 
                     <dd className='font-bold mb-2 text-gray-700'>
-                      Ashuganj 450MW CCPP (North)
+                      XLPE 33/11 kv PVC Copper Cable
                     </dd>
                   </div>
-                  <div>
+                  {/* <div>
                     <dt className='sr-only'>Project Details</dt>
 
                     <dd className='font-normal text-gray-500'>
@@ -61,7 +57,7 @@ export default function Portfolio() {
                       Siemens turbogroup package and CMI heat recovery steam
                       generator
                     </dd>
-                  </div>
+                  </div> */}
                 </dl>
 
                 <hr className='mt-3' />
@@ -69,29 +65,33 @@ export default function Portfolio() {
                 <dl className='my-3 text-sm'>
                   <ul className='text-gray-500'>
                     <li>
-                      <strong>Associate Partner:</strong> TSK, Spain
+                      <strong>Manufacturer:</strong> TBEA Deyang Cable Co,Ltd.
                     </li>
                     <li>
-                      <strong>Client:</strong> Ashuganj Power Station Company
-                      Ltd.
+                      <strong>Country of Origin:</strong>China
                     </li>
                     <li>
-                      <strong>Our Role:</strong> Local Agents, Consultants,
-                      Sub-contractors
+                      <strong>Client:</strong> DESCO
+                    </li>
+                    <li>
+                      <strong>Task:</strong> Supply Only
+                    </li>
+                    <li>
+                      <strong>Our Role:</strong> Local Agents
                     </li>
                   </ul>
                 </dl>
               </div>
             </a>
           </Link>
-          {/* APSCL SOUTH */}
+          {/* HMCRANE */}
           <Link href={"#!"}>
             <a className='block rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-t-lg'
-                  src={APSCL_S}
-                  alt='cobra'
+                  src={HMCRANE}
+                  alt='25-30TON Hydraulic Mounted Crane | BAPEX'
                   //   height={170}
                   //   width={255}
                   //   layout='intrinsic'
@@ -105,13 +105,13 @@ export default function Portfolio() {
               <div className='mt-2 px-4'>
                 <dl>
                   <div>
-                    <dt className='sr-only'>Client Name</dt>
+                    <dt className='sr-only'>Supply Type</dt>
 
                     <dd className='font-bold mb-2 text-gray-700'>
-                      Ashuganj 450MW CCPP (South)
+                      Hydraulic Mounted Crane
                     </dd>
                   </div>
-                  <div>
+                  {/* <div>
                     <dt className='sr-only'>Project Details</dt>
 
                     <dd className='font-normal text-gray-500'>
@@ -120,7 +120,7 @@ export default function Portfolio() {
                       Siemens turbogroup package and CMI heat recovery steam
                       generator
                     </dd>
-                  </div>
+                  </div> */}
                 </dl>
 
                 <hr className='mt-3' />
@@ -128,29 +128,39 @@ export default function Portfolio() {
                 <dl className='my-3 text-sm'>
                   <ul className='text-gray-500'>
                     <li>
-                      <strong>Associate Partner:</strong> TSK, Spain
+                      <strong>Manufacturer:</strong> XCMG
                     </li>
                     <li>
-                      <strong>Client:</strong> Ashuganj Power Station Company
-                      Ltd.
+                      <strong>Country of Origin:</strong> China
                     </li>
                     <li>
-                      <strong>Our Role:</strong> Local Agents, Consultants,
-                      Sub-contractors
+                      <strong>Loading Capacity:</strong> 25-30ton
+                    </li>
+                    <li>
+                      <strong>Client:</strong> BAPEX
+                    </li>
+                    <li>
+                      <strong>Task:</strong> Supply with warranty
+                    </li>
+                    <li>
+                      <strong>Supplied by:</strong> BMTF with Energy Solution
+                    </li>
+                    <li>
+                      <strong>Our Role:</strong> Supply and 2 yrs O&amp;M
                     </li>
                   </ul>
                 </dl>
               </div>
             </a>
           </Link>
-          {/* NWPGCL PAYRA POWER PLANT */}
+          {/* FORKL */}
           <Link href={"#!"}>
             <a className='block rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-t-lg'
-                  src={NWPGCL_PAYRA}
-                  alt='cobra'
+                  src={FORKL}
+                  alt='Diesel Forklift'
                   //   height={170}
                   //   width={255}
                   //   layout='intrinsic'
@@ -164,13 +174,13 @@ export default function Portfolio() {
               <div className='mt-2 px-4'>
                 <dl>
                   <div>
-                    <dt className='sr-only'>Client Name</dt>
+                    <dt className='sr-only'>Supply Type</dt>
 
                     <dd className='font-bold mb-2 text-gray-700'>
-                      Supercritical Coal Based Power Plant
+                      Forklift (Diesel)
                     </dd>
                   </div>
-                  <div>
+                  {/* <div>
                     <dt className='sr-only'>Project Details</dt>
 
                     <dd className='font-normal text-gray-500'>
@@ -178,7 +188,7 @@ export default function Portfolio() {
                       super critical coal based power plant for North West Power
                       Generation Company Limited under IPP in Payra, Bangladesh.
                     </dd>
-                  </div>
+                  </div> */}
                 </dl>
 
                 <hr className='mt-3' />
@@ -186,27 +196,39 @@ export default function Portfolio() {
                 <dl className='my-3 text-sm'>
                   <ul className='text-gray-500'>
                     <li>
-                      <strong>Associate Partner:</strong> CMC, NEPC, China
+                      <strong>Manufacturer:</strong> TCM
                     </li>
                     <li>
-                      <strong>Client:</strong> NWPGCL / BCPCL
+                      <strong>Country of Origin:</strong> Japan
                     </li>
                     <li>
-                      <strong>Our Role:</strong> Sub-contractors, Consultants
+                      <strong>Loading Capacity:</strong> 2ton - 10ton
+                    </li>
+                    <li>
+                      <strong>Client:</strong> BAPEX
+                    </li>
+                    <li>
+                      <strong>Task:</strong> Supply
+                    </li>
+                    <li>
+                      <strong>Supplied by:</strong> BMTF with Energy Solution
+                    </li>
+                    <li>
+                      <strong>Our Role:</strong> Supply and 2 yrs O&amp;M
                     </li>
                   </ul>
                 </dl>
               </div>
             </a>
           </Link>
-          {/* SIRAJGANJ 225MW CCPP UNIT2 */}
+          {/* HMCRANE2 */}
           <Link href={"#!"}>
             <a className='block rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-t-lg'
-                  src={UNIT2}
-                  alt='cobra'
+                  src={HMCRANE2}
+                  alt='ENERGY SOLUTION | 25Ton Hydraulic Mounted Crane | BAPEX'
                   //   height={170}
                   //   width={255}
                   //   layout='intrinsic'
@@ -220,19 +242,19 @@ export default function Portfolio() {
               <div className='mt-2 px-4'>
                 <dl>
                   <div>
-                    <dt className='sr-only'>Client Name</dt>
+                    <dt className='sr-only'>Supply Type</dt>
 
                     <dd className='font-bold mb-2 text-gray-700'>
-                      Sirajganj 225 MW CCPP (Unit-2)
+                      Hydraulic Mounted Crane
                     </dd>
                   </div>
-                  <div>
+                  {/* <div>
                     <dt className='sr-only'>Project Details</dt>
 
                     <dd className='font-normal text-gray-500'>
                       Sirajganj 225 MW Combined Cycle Power Plant Unit 2
                     </dd>
-                  </div>
+                  </div> */}
                 </dl>
 
                 <hr className='mt-3' />
@@ -240,33 +262,39 @@ export default function Portfolio() {
                 <dl className='my-3 text-sm'>
                   <ul className='text-gray-500'>
                     <li>
-                      <strong>Contract Date:</strong> 20 August, 2014
+                      <strong>Manufacturer:</strong> PowerPlus
                     </li>
                     <li>
-                      <strong>Commercial Operation Date:</strong> 05 Feb, 2018
+                      <strong>Country of Origin:</strong> USA
                     </li>
                     <li>
-                      <strong>Associate Partner:</strong> CMC, China
+                      <strong>Loading Capacity:</strong> 25ton
                     </li>
                     <li>
-                      <strong>Client:</strong> NWPGCL
+                      <strong>Client:</strong> BAPEX
                     </li>
                     <li>
-                      <strong>Our Role:</strong> Local Agents
+                      <strong>Task:</strong> Supply with warranty
+                    </li>
+                    <li>
+                      <strong>Supplied by:</strong> BMTF with Energy Solution
+                    </li>
+                    <li>
+                      <strong>Our Role:</strong> Supply and 2 yrs O&amp;M
                     </li>
                   </ul>
                 </dl>
               </div>
             </a>
           </Link>
-          {/* SIRAJGANJ 225MW CCPP UNIT3 */}
+          {/* TSWITCHGEAR */}
           <Link href={"#!"}>
             <a className='block rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-t-lg'
-                  src={UNIT3}
-                  alt='cobra'
+                  src={TSWITCHGEAR}
+                  alt='ENERGY SOLUTION |TAMCO Switch Gear Pannels | WZPDCL, DESCO, DPDC'
                   //   height={170}
                   //   width={255}
                   //   layout='intrinsic'
@@ -280,19 +308,19 @@ export default function Portfolio() {
               <div className='mt-2 px-4'>
                 <dl>
                   <div>
-                    <dt className='sr-only'>Client Name</dt>
+                    <dt className='sr-only'>Supply Type</dt>
 
                     <dd className='font-bold mb-2 text-gray-700'>
-                      Sirajganj 225 MW CCPP (Unit-2)
+                      Switch Gear Pannels
                     </dd>
                   </div>
-                  <div>
+                  {/* <div>
                     <dt className='sr-only'>Project Details</dt>
 
                     <dd className='font-normal text-gray-500'>
                       Sirajganj 225 MW Combined Cycle Power Plant Unit 2
                     </dd>
-                  </div>
+                  </div> */}
                 </dl>
 
                 <hr className='mt-3' />
@@ -300,34 +328,35 @@ export default function Portfolio() {
                 <dl className='my-3 text-sm'>
                   <ul className='text-gray-500'>
                     <li>
-                      <strong>Contract Date:</strong> 12 July, 2015
+                      <strong>Manufacturer:</strong> TAMCO
                     </li>
                     <li>
-                      <strong>Commercial Operation Date:</strong> Simple Cycle:
-                      09 Aug 2018, Combined Cycle: 20 Jan 2019
+                      <strong>Country of Origin:</strong> Malaysia
                     </li>
                     <li>
-                      <strong>Associate Partner:</strong> CMC, China
+                      <strong>Client:</strong> WZPDCL, DESCO, DPDC
                     </li>
                     <li>
-                      <strong>Client:</strong> NWPGCL
+                      <strong>Task:</strong> EPC, Supply, Installation,
+                      Commissioning
                     </li>
                     <li>
-                      <strong>Our Role:</strong> Local Agents
+                      <strong>Our Role:</strong> Supply, Installation and
+                      O&amp;M
                     </li>
                   </ul>
                 </dl>
               </div>
             </a>
           </Link>
-          {/* 33kV SUB-STATION REHABILITATION */}
+          {/* TVINTERRUPTER */}
           <Link href={"#!"}>
             <a className='block rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
               <div className=''>
                 <Image
                   className='rounded-t-lg'
-                  src={SUB33KV}
-                  alt='cobra'
+                  src={TVINTERRUPTER}
+                  alt='ENERGY SOLUTION | Vaccum Interrupter | WZPDCL'
                   //   height={170}
                   //   width={255}
                   //   layout='intrinsic'
@@ -341,69 +370,10 @@ export default function Portfolio() {
               <div className='mt-2 px-4'>
                 <dl>
                   <div>
-                    <dt className='sr-only'>Client Name</dt>
+                    <dt className='sr-only'>Supply Type</dt>
 
                     <dd className='font-bold mb-2 text-gray-700'>
-                      33kV Sub-station Rehabilitation
-                    </dd>
-                  </div>
-                  <div>
-                    <dt className='sr-only'>Project Details</dt>
-
-                    <dd className='font-normal text-gray-500'>
-                      33kV Sub-station Rehabilitation executed jointly by Tamco
-                      Malaysia and Energy Solution under West Zone Power
-                      Distribution Company Ltd.(WZPDCL), Khulna , Dhaka Power
-                      Distribution Company (DPDC), Dhaka Electric Supply Company
-                      Limited (DESCO).
-                    </dd>
-                  </div>
-                </dl>
-
-                <hr className='mt-3' />
-
-                <dl className='my-3 text-sm'>
-                  <ul className='text-gray-500'>
-                    <li>
-                      <strong>Associate Partner:</strong> TAMCO, Malaysia
-                    </li>
-                    <li>
-                      <strong>Client:</strong> WZPDCL, DPDC, DESCO
-                    </li>
-                    <li>
-                      <strong>Our Role:</strong> Importer, Supplier,
-                      Installation, Engineering
-                    </li>
-                  </ul>
-                </dl>
-              </div>
-            </a>
-          </Link>
-          {/* GIS SUB-STATION */}
-          <Link href={"#!"}>
-            <a className='block rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
-              <div className=''>
-                <Image
-                  className='rounded-t-lg'
-                  src={SUBGIS}
-                  alt='cobra'
-                  //   height={170}
-                  //   width={255}
-                  //   layout='intrinsic'
-                  //   objectFit='cover'
-                  quality='70'
-                  // blurDataURL='data:...' // automatically provided
-                  placeholder='blur' // Optional blur-up while loading
-                />
-              </div>
-
-              <div className='mt-2 px-4'>
-                <dl>
-                  <div>
-                    <dt className='sr-only'>Client Name</dt>
-
-                    <dd className='font-bold mb-2 text-gray-700'>
-                      Gas Insulated Sub-station
+                      Vaccum Interrupter
                     </dd>
                   </div>
                   {/* <div>
@@ -424,18 +394,79 @@ export default function Portfolio() {
                 <dl className='my-3 text-sm'>
                   <ul className='text-gray-500'>
                     <li>
-                      <strong>Capacity:</strong> 2x 400kv GIS by Siemens
+                      <strong>Manufacturer:</strong> L&amp;T Eaton
                     </li>
                     <li>
-                      <strong>Client:</strong> APSCL (North &amp; South)
+                      <strong>Capacity:</strong> 12kV 630A~1250A
+                    </li>
+                    <li>
+                      <strong>Country of Origin:</strong> India
+                    </li>
+                    <li>
+                      <strong>Client:</strong> WZPDCL
                     </li>
                     <li>
                       <strong>Task:</strong> EPC, Supply, Installation,
-                      Commissioning by TSK, Spain
+                      Commissioning
                     </li>
                     <li>
-                      <strong>Our Role:</strong> Consultancy, Logistics
+                      <strong>Our Role:</strong> Supply, Installation and
+                      O&amp;M
                     </li>
+                  </ul>
+                </dl>
+              </div>
+            </a>
+          </Link>
+          {/* STONE */}
+          <Link href={"#!"}>
+            <a className='block rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
+              <div className=''>
+                <Image
+                  className='rounded-t-lg'
+                  src={STONE}
+                  alt='ENERGY SOLUTION | Stone Chips &amp; Boulders'
+                  //   height={170}
+                  //   width={255}
+                  //   layout='intrinsic'
+                  //   objectFit='cover'
+                  quality='70'
+                  // blurDataURL='data:...' // automatically provided
+                  placeholder='blur' // Optional blur-up while loading
+                />
+              </div>
+
+              <div className='mt-2 px-4'>
+                <dl>
+                  <div>
+                    <dt className='sr-only'>Supply Type</dt>
+
+                    <dd className='font-bold mb-2 text-gray-700'>
+                      Supply of Stone Chips &amp; Boulders
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className='sr-only'>Project Details</dt>
+
+                    <dd className='font-normal text-gray-500'>
+                      We Supply various sizes of stone chips ranging from 10mm
+                      to 16mm, 16mm to 20mm, 20mm to 26mm, and boulders ranging
+                      from 10kg to 100kg, 100kg to 800kg. We are directly
+                      importing from Fujairah, UAE, Oman, Thailand, India and
+                      China
+                    </dd>
+                  </div>
+                </dl>
+
+                <hr className='mt-3' />
+
+                <dl className='my-3 text-base'>
+                  <h1 className='font-bold'>Our clients are:</h1>
+                  <ul className='text-gray-500 list-inside list-disc'>
+                    <li>Northeast No.1 Electric Power Construction Co. Ltd</li>
+                    <li>Ruppur Nuclear Power Plant</li>
+                    <li>Sinohydro Corporation Ltd</li>
+                    <li>Chongqing International Construction Corporation</li>
                   </ul>
                 </dl>
               </div>

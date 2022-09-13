@@ -68,7 +68,7 @@ export default function Partners() {
                   <div>
                     <dt className='sr-only'>Company Name</dt>
 
-                    <dd className='font-medium'>TBEA Co., Ltd</dd>
+                    <dd className='font-medium'>TBEA Deyang Cable Co,Ltd.</dd>
                   </div>
                 </dl>
 
