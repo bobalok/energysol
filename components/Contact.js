@@ -77,7 +77,7 @@ export default function Contact() {
         className='max-w-screen-xl px-4 mx-auto md:py-16 sm:px-6 lg:px-8 '
       >
         <div className=' rounded-xl shadow-xl border border-gray-200'>
-          <span className='flex  h-3 w-3'>
+          <span className='flex h-3 w-3 -m-1'>
             <span className='animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75'></span>
             <span className='relative inline-flex rounded-full h-3 w-3 bg-sky-500'></span>
           </span>
