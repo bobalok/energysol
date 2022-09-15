@@ -28,7 +28,7 @@ const defaultNavigation = [
 
 const dropdownNavigation = [
   { name: " O&M Support", href: "#!", current: false },
-  { name: "Management", href: "/management", current: false },
+  { name: "Acquired Memberships", href: "/memberships", current: false },
 ];
 
 function classNames(...classes) {
@@ -118,10 +118,10 @@ export default function Navi() {
                           <hr />
                           <Menu.Item>
                             <MyLink
-                              href='/management'
+                              href='/memberships'
                               className='hover:text-blue-600'
                             >
-                              Management
+                              Acquired Memberships
                             </MyLink>
                           </Menu.Item>
                         </div>
