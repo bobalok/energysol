@@ -53,7 +53,7 @@ export default function FAQ() {
 
             <p className='mt-4 leading-relaxed text-gray-700'>
               Business consultants can help find weak areas in your spending and
-              provide creative solutions for those areas. ‌Business consultants
+              provide creative solutions for those areas. Business consultants
               can help increase sales by researching your desired client and
               creating a targeted marketing plan to attract them.
             </p>
@@ -101,12 +101,12 @@ export default function FAQ() {
             <p className='mt-4 leading-relaxed text-gray-700'>
               We take pride in our ability to learn the fundamentals of
               virtually any industry or technology quickly. Some of the markets
-              we have served include green technologies, medical devices,
-              biotechnology, Internet/e-commerce, telecommunications, distance
-              education/e-learning, real estate, financial services, healthcare
-              services, manufacturing, retail, food service, consumer products,
-              media and entertainment, aerospace, artificial intelligence,
-              enterprise software, insurance, energy, and networking. Having
+              we have served include power-generation, energy, water, green
+              technologies, medical devices, biotechnology, telecommunications,
+              distance education/e-learning, construction, real estate,
+              financial services, healthcare services, manufacturing, retail,
+              food service, consumer products, media and entertainment,
+              aerospace, enterprise software, insurance, and networking. Having
               said that, we believe that the value we bring to the table is not
               industry expertise — which you already possess in abundance — but
               rather an understanding of what investors like to see in a
