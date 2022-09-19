@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 // import Swiper core and required modules
-import { A11y, Autoplay } from "swiper";
+import { Autoplay } from "swiper";
 
 import Image from "next/image";
 import comp1 from "../public/images/clients-logos/comp_desco.png";
@@ -34,14 +34,14 @@ export default function Clients() {
           </div>
           <Swiper
             className='text-center'
-            modules={[A11y, Autoplay]}
+            modules={[Autoplay]}
             spaceBetween={30}
             speed={3200}
             loop={true}
             loopFillGroupWithBlank={true}
             autoplay={{
-              delay: 0,
-              // disableOnInteraction: false,
+              delay: 1,
+              disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
             slidesPerView={3}
@@ -54,6 +54,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
+                priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Dhaka Electric Supply Company Limited
@@ -67,6 +68,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
+                priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Power Development Board
@@ -80,6 +82,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
+                priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 West Zone Power Distribution Company
@@ -93,6 +96,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
+                priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Dhaka WASA
@@ -106,6 +110,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
+                priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Machine Tools Factory
@@ -119,6 +124,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
+                priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Shipping Corporation
@@ -132,6 +138,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
+                priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Economic Zones Authority
