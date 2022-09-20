@@ -54,7 +54,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
-                priority
+                // priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Dhaka Electric Supply Company Limited
@@ -68,7 +68,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
-                priority
+                // priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Power Development Board
@@ -82,7 +82,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
-                priority
+                // priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 West Zone Power Distribution Company
@@ -96,7 +96,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
-                priority
+                // priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Dhaka WASA
@@ -110,7 +110,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
-                priority
+                // priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Machine Tools Factory
@@ -124,7 +124,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
-                priority
+                // priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Shipping Corporation
@@ -138,7 +138,7 @@ export default function Clients() {
                 // height={100} automatically provided
                 // blurDataURL='data:...' // automatically provided
                 placeholder='blur' // Optional blur-up while loading
-                priority
+                // priority
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Economic Zones Authority

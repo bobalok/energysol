@@ -10,7 +10,7 @@ export default function Footer() {
     <>
       <footer className='text-white bg-gray-900 lg:grid lg:grid-cols-5'>
         <aside className='hidden lg:relative lg:col-span-2 lg:block aspect-w-1 aspect-h-0'>
-          <DynamicMapFooter />
+          <DynamicMapFooter className='absolute inset-0 object-cover w-full h-full' />
 
           {/* <img
             class='absolute inset-0 object-cover w-full h-full'
@@ -23,7 +23,9 @@ export default function Footer() {
           <div className='grid grid-cols-1 gap-8 sm:grid-cols-2'>
             <div>
               <p className='font-medium'>
-                <span className='text-xs tracking-widest uppercase'>Call</span>
+                <span className='text-xs tracking-widest uppercase'>
+                  Call us
+                </span>
 
                 <a
                   className='block text-2xl sm:text-3xl hover:opacity-75'
@@ -210,7 +212,7 @@ export default function Footer() {
               </div>
 
               <p className='mt-4 sm:mt-0'>
-                &copy; 2022 Energy Solution Engineering Ltd.
+                &copy; 2015-2022 Energy Solution Engineering Ltd.
               </p>
             </div>
 

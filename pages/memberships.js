@@ -7,7 +7,7 @@ export default function memberships() {
   return (
     <>
       <Head>
-        <title>Energy Solution | memberships</title>
+        <title>Energy Solution | Memberships</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Memberships />
