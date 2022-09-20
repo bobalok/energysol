@@ -6,6 +6,17 @@
   background-color: white !important;
 }
 
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+  user-select: none;
+  -webkit-touch-callout: none;
+  backface-visibility: hidden;
+}
+
+/* .swiper-slide {
+  width: auto !important;
+} */
+
 /* Custom Styled Scrollbar  */
 
 ::-webkit-scrollbar {
