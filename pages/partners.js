@@ -8,7 +8,7 @@ export default function partners() {
     <>
       <Head>
         <title>Energy Solution | Partners</title>
-        <link rel='icon' href='/favicon.ico' />
+        {/* <link rel='icon' href='/favicon.ico' /> */}
       </Head>
       <section className='pb-20'>
         <Partners />

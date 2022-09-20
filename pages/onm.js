@@ -6,7 +6,7 @@ export default function portfolio() {
     <>
       <Head>
         <title>Energy Solution | O&amp;M Support</title>
-        <link rel='icon' href='/favicon.ico' />
+        {/* <link rel='icon' href='/favicon.ico' /> */}
       </Head>
       <Onm />
     </>
