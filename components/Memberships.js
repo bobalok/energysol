@@ -15,10 +15,14 @@ export default function Memberships() {
           We are proud member of
         </h2>
 
-        <p className='mt-4 text-lg text-gray-500'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        {/* <p className='mt-4 text-lg text-gray-500'>
+          It’s not easy to make it this far, but it’s worth it. Each year, our
+          organization becomes more and more sustainable. Our diverse
+          sustainability committee does a great job of creating a plan for
+          promoting environmental stewardship for our company and passionate
+          community members. The sustainability challenges we face will never be
+          easy to overcome, but we are unstoppable.
+        </p> */}
       </div>
 
       {/* Cards start here */}
@@ -95,7 +99,7 @@ export default function Memberships() {
                 alt='norinco'
                 //   height={170}
                 //   width={255}
-                //   layout='intrinsic'
+                layout='responsive'
                 //   objectFit='cover'
                 quality='70'
                 // blurDataURL='data:...' // automatically provided
@@ -138,7 +142,7 @@ export default function Memberships() {
                 alt='norinco'
                 //   height={170}
                 //   width={255}
-                //   layout='intrinsic'
+                layout='responsive'
                 //   objectFit='cover'
                 quality='70'
                 // blurDataURL='data:...' // automatically provided
@@ -165,6 +169,16 @@ export default function Memberships() {
             </div>
           </a>
         </Link>
+      </div>
+      <div className='mt-12 p-8 rounded-xl border border-gray-200'>
+        <p className='text-lg text-gray-500 select-none sm:text-justify'>
+          It’s not easy to make it this far, but it’s worth it. Each year, our
+          organization becomes more and more sustainable. Our diverse
+          sustainability committee does a great job of creating a plan for
+          promoting environmental stewardship for our company and passionate
+          community members. The sustainability challenges we face will never be
+          easy to overcome, but we are unstoppable.
+        </p>
       </div>
     </section>
   );
