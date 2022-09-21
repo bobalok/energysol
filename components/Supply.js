@@ -8,6 +8,7 @@ import HMCRANE2 from "../public/images/supply-images/comp_powerplus_bapex.jpg";
 import TSWITCHGEAR from "../public/images/supply-images/comp_tamco_many.jpg";
 import TVINTERRUPTER from "../public/images/supply-images/comp_tvi_wzpdcl.jpg";
 import STONE from "../public/images/supply-images/comp_stone_many.jpg";
+import FERTILIZER from "../public/images/supply-images/comp_fertilizer.png";
 
 export default function Portfolio() {
   return (
@@ -467,6 +468,48 @@ export default function Portfolio() {
                     <li>Ruppur Nuclear Power Plant</li>
                     <li>Sinohydro Corporation Ltd</li>
                     <li>Chongqing International Construction Corporation</li>
+                  </ul>
+                </dl>
+              </div>
+            </a>
+          </Link>
+          {/* FERTILIZER */}
+          <Link href={"#!"}>
+            <a className='block lg:col-span-2 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-100 md:transition-all'>
+              <div className=''>
+                <Image
+                  className='rounded-t-lg'
+                  src={FERTILIZER}
+                  alt='ENERGY SOLUTION | Fertilizer'
+                  //   height={170}
+                  //   width={255}
+                  //   layout='intrinsic'
+                  //   objectFit='cover'
+                  quality='70'
+                  // blurDataURL='data:...' // automatically provided
+                  placeholder='blur' // Optional blur-up while loading
+                />
+              </div>
+
+              <div className='mt-2 px-4'>
+                <dl className='my-3 text-base'>
+                  <h1 className='font-bold'>Fertilizer type:</h1>
+                  <ul className='text-gray-500 list-inside list-disc'>
+                    <li>UREA</li>
+                    <li>TSP</li>
+                    <li>MOP</li>
+                    <li>DAP</li>
+                  </ul>
+                </dl>
+
+                <hr className='mt-3' />
+
+                <dl className='my-3 text-base'>
+                  <h1 className='font-bold'>Our clients are:</h1>
+                  <ul className='text-gray-500 list-inside list-disc'>
+                    <li>Bangladesh Chemical Industries Corporation</li>
+                    <li>Bangladesh Agricultural Development Corporation</li>
+                    <li>Private Sector</li>
                   </ul>
                 </dl>
               </div>
