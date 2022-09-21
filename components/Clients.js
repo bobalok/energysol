@@ -15,6 +15,8 @@ import comp4 from "../public/images/clients-logos/comp_dwasa.png";
 import comp5 from "../public/images/clients-logos/comp_bmtf.png";
 import comp6 from "../public/images/clients-logos/comp_bsc.png";
 import comp7 from "../public/images/clients-logos/comp_beza.png";
+import comp8 from "../public/images/clients-logos/comp_bcic.png";
+import comp9 from "../public/images/clients-logos/comp_badc.png";
 
 export default function Clients() {
   return (
@@ -143,6 +145,34 @@ export default function Clients() {
               />
               <p className='hidden sm:block text-center text-gray-400'>
                 Bangladesh Economic Zones Authority
+              </p>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={comp8}
+                alt='Bangladesh Chemical Industries Corporation'
+                // width={120} automatically provided
+                // height={100} automatically provided
+                // blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
+                // priority
+              />
+              <p className='hidden sm:block text-center text-gray-400'>
+                Bangladesh Chemical Industries Corporation
+              </p>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={comp9}
+                alt='Bangladesh Agricultural Development Corporation'
+                // width={120} automatically provided
+                // height={100} automatically provided
+                // blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
+                // priority
+              />
+              <p className='hidden sm:block text-center text-gray-400'>
+                Bangladesh Agricultural Development Corporation
               </p>
             </SwiperSlide>
             {/* <SwiperSlide>Slide 6</SwiperSlide>
