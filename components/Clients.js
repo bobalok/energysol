@@ -33,11 +33,10 @@ export default function Clients() {
             </p>
           </div>
           <Swiper
-            className='text-center'
             modules={[Autoplay]}
             spaceBetween={30}
             slidesPerView={3}
-            speed={7000}
+            speed={5500}
             loop={true}
             loopFillGroupWithBlank={true}
             autoplay={{
@@ -46,7 +45,7 @@ export default function Clients() {
               pauseOnMouseEnter: true,
             }}
             centeredSlides={true}
-            // freeMode={true}
+            freeMode={true}
           >
             <SwiperSlide>
               <Image

@@ -2,22 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/***************Custom Styled SwiperJS******************/
 .swiper-pagination-bullet-active {
   background-color: white !important;
 }
 
 .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
   transition-timing-function: linear !important;
-  user-select: none;
   -webkit-touch-callout: none;
+  user-select: none !important;
+  text-align: center !important;
   backface-visibility: hidden;
 }
 
 /* .swiper-slide {
-  width: auto !important;
-} */
+    width: auto !important;
+  } */
 
-/* Custom Styled Scrollbar  */
+/***************Custom Styled SwiperJS******************/
+
+/***************Custom Styled Scrollbar******************/
 
 ::-webkit-scrollbar {
   width: 0.4em;
@@ -46,3 +52,5 @@
     scrollbar-width: thin;
   }
 }
+
+/***************Custom Styled Scrollbar******************/
