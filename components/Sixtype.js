@@ -113,7 +113,7 @@ export default function Sixtype() {
                 The team at Engineering is made up of professionals with a
                 favourable national reputation for skill and experience in the
                 design, construction, reconstruction, maintenance and repair of
-                any commercial projects.
+                any commercial projects
                 {/* We offer the services of our professional engineers in the
                   field of project management in executing complex projects. Our
                   Engineers have the experience and track record to drive high-
@@ -135,7 +135,7 @@ export default function Sixtype() {
                 Creating a better future for ourselves and our children by
                 bringing solar energy to the masses. Solar infrastructures are
                 vital to reduce our reliance on fossil fuels, and empower the
-                new renewable-energy economy.
+                new renewable-energy economy
                 {/* Enhancing the country&apos;s power generation infrastructures
                   to produce more renewable energy as we know Solar energy is
                   widely available and unlimited. No air or water pollution is
@@ -157,7 +157,7 @@ export default function Sixtype() {
               <p className='mt-1 text-base text-gray-300'>
                 We are now the largest importer of fertilizer in Bangladesh. We
                 have developed a network for importing fertilizer through sea
-                and air routes, even using container ships when necessary.
+                and air routes, even using container ships when necessary
                 {/* We import best quality fertilizer (in bulk) from around the
                   world. As we know fertilizer is an important input for
                   agriculture production, we’re also a proud member of
