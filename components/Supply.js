@@ -494,12 +494,13 @@ export default function Portfolio() {
               <div className='mt-2 px-4'>
                 <dl className='my-3 text-base'>
                   <h1 className='font-bold'>Fertilizer type:</h1>
-                  <ul className='text-gray-500 list-inside list-disc'>
+                  <p className='text-gray-500'>UREA | TSP | MOP | DAP</p>
+                  {/* <ul className='text-gray-500 list-inside list-disc'>
                     <li>UREA</li>
                     <li>TSP</li>
                     <li>MOP</li>
                     <li>DAP</li>
-                  </ul>
+                  </ul> */}
                 </dl>
 
                 <hr className='mt-3' />
