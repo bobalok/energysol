@@ -3,7 +3,10 @@ import React from "react";
 export default function FAQ() {
   return (
     <>
-      <section className='max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8'>
+      <section
+        id='FAQ'
+        className='max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8'
+      >
         <div className='max-w-3xl mx-auto text-center py-12'>
           <h2 className='text-3xl font-bold text-gray-900 sm:text-4xl'>
             <span className='relative inline-block'>

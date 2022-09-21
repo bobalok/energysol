@@ -3,9 +3,9 @@ import React from "react";
 export default function privacypolicy() {
   return (
     <>
-      <section className='bg-white'>
-        <div className='border-8 border-gray-900 max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8 text-justify'>
-          <h2 className='text-center text-2xl pb-12'>
+      <section className='bg-white max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
+        <div className='max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8 rounded-xl shadow-xl border border-gray-200'>
+          <h2 className='text-center underline underline-offset-1 text-2xl pb-12'>
             <b>PRIVACY POLICY</b>
           </h2>
           <p>Effective date: 2022-09-01</p>

@@ -151,18 +151,23 @@ export default function Footer() {
                 <span></span>
                 <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-300'>
                   <p className='font-bold'>Support</p>
-                  <a className='hover:opacity-75' href=''>
+                  <Link href={"/contact"}>
+                    <a className='hover:opacity-75'> Contact </a>
+                  </Link>
+                  <a
+                    className='hover:opacity-75'
+                    href='/docs/ESEL-ES_Company-Profile.pdf'
+                    alt='Download Energy Solution Company Profile'
+                    target='_self'
+                    rel='noopener noreferrer'
+                  >
                     {" "}
-                    Contact{" "}
+                    Company profile{" "}
                   </a>
-                  <a className='hover:opacity-75' href=''>
+                  {/* <a className='text-gray-500' href='#!'>
                     {" "}
-                    FAQs{" "}
-                  </a>
-                  <a className='hover:opacity-75' href=''>
-                    {" "}
-                    Live Chat{" "}
-                  </a>
+                    !Live Chat{" "}
+                  </a> */}
                   <Link href='/privacypolicy'>
                     <a className='hover:opacity-75'> Privacy Policy </a>
                   </Link>
