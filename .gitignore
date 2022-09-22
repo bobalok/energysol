@@ -19,6 +19,11 @@
 /.next/
 /out/
 
+
+# yarn.js
+/.yarn/
+
+
 # production
 /build
 
