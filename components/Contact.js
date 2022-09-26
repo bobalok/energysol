@@ -76,7 +76,7 @@ export default function Contact() {
         id='contact'
         className='max-w-screen-xl px-4 mx-auto md:py-16 sm:px-6 lg:px-8 '
       >
-        <div className=' rounded-xl shadow-xl border border-gray-200 backdrop-blur-3xl bg-white/30'>
+        <div className=' rounded-xl shadow-xl border border-gray-200'>
           <div className='absolute -m-1'>
             <span className='flex h-3 w-3'>
               <span className='animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75'></span>
@@ -84,8 +84,8 @@ export default function Contact() {
             </span>
           </div>
 
-          <div className='grid grid-cols-1 gap-x-16 sm:gap-y-8 lg:grid-cols-5 '>
-            <div className='sm:py-12 p-8 lg:col-span-2'>
+          <div className='grid grid-cols-1 sm:gap-y-8 lg:grid-cols-5'>
+            <div className='sm:py-12 p-8 lg:col-span-2 rounded-xl lg:rounded-r-none bg-contact-default bg-bg-size'>
               {/* <p className='mt-6 uppercase'>CONTACT US</p> */}
 
               <h1 className='text-3xl font-bold sm:text-5xl'>Send us a mail</h1>
@@ -119,7 +119,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className='p-8 bg-white rounded-xl lg:p-12 lg:col-span-3'>
+            <div className='p-8 rounded-xl lg:rounded-r-xl lg:p-12 lg:col-span-3'>
               <form className='space-y-4' onSubmit={handleOnSubmit}>
                 <div>
                   <label className='sr-only' htmlFor='name'>
