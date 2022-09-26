@@ -8,15 +8,11 @@ export default function contact() {
     <>
       <Head>
         <title>Energy Solution | Contact</title>
-        <link rel='icon' href='/favicon.ico' />
+        {/* <link rel='icon' href='/favicon.ico' /> */}
       </Head>
-      <section className='py-12'>
-        {/* <Stats /> */}
+      <div className='py-12'>
         <Contact />
-        {/* <Clients /> */}
-        {/* <Sixtype /> */}
-        {/* <Testimonials /> */}
-      </section>
+      </div>
     </>
   );
 }
