@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { OfficeBuildingIcon, TagIcon } from "@heroicons/react/outline";
+// import { OfficeBuildingIcon, TagIcon } from "@heroicons/react/outline";
 
 import DCCI from "../public/images/membership-logos/comp_dcci.png";
 import BIAA from "../public/images/membership-logos/comp_biaa.png";
-import BR from "../public/images/membership-logos/comp_br.png";
+// import BR from "../public/images/membership-logos/comp_br.png";
 import BFA from "../public/images/membership-logos/comp_bfa.png";
 
 export default function Memberships() {
