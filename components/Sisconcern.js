@@ -104,12 +104,12 @@ export default function Sisconcern() {
               <cite className='inline-flex items-center mt-8 not-italic'>
                 <span className='hidden w-6 h-px bg-gray-400 sm:inline-block'></span>
                 <p className='text-sm text-gray-500 uppercase sm:ml-3'>
-                  <strong>Arif I.Z Rahman</strong>, Director, Marketing | SINAMM
+                  <strong>Arif I.Z Rahman</strong>, Director | SINAMM
                   Engineering Limited
                 </p>
               </cite>
 
-              <div className='flex mt-8 space-x-1 text-gray-500 sm:mt-8'>
+              <div className='flex mt-8 space-x-2 text-gray-500 sm:mt-8'>
                 <a
                   className='hover:text-blue-600 flex'
                   href='https://www.linkedin.com/in/arif-i-z-rahman-71774570/'
@@ -131,6 +131,30 @@ export default function Sisconcern() {
                     />
                   </svg>
                   <span>LinkedIn</span>
+                </a>
+                <a
+                  className='hover:text-blue-600 flex'
+                  href='https://sinammengineering.com/top-management/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <span className='sr-only'> Sinamm Engineering Limited</span>
+
+                  <svg
+                    className='w-6 h-6 text-sky-600 mr-1'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13'
+                    />
+                  </svg>
+                  <span>Sinamm&rsquo;s website</span>
                 </a>
               </div>
             </blockquote>
