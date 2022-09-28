@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         "logo-default": "url('/energysolution.svg')",
-        "contact-default": "url('/images/bg-images/bg-elaborated.svg')",
+        "contact-default": "url('/images/bg-images/bg-elaborated.webp')",
       }),
       backgroundSize: {
         "bg-size": "700px",
