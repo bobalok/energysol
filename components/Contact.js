@@ -60,7 +60,7 @@ export default function Contact() {
       url: "https://formspree.io/mzbwdeed",
       data: inputs,
     })
-      .then((response) => {
+      .then((_response) => {
         handleServerResponse(
           true,
           "Thank you, your message has been submitted."
