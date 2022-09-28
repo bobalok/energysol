@@ -55,6 +55,7 @@ export default function Slider() {
               objectFit='cover'
               quality='70'
               placeholder='blur' // Optional blur-up while loading
+              priority
             />
             <div className='block inset-0 absolute bg-zinc-900 bg-opacity-70'></div>
             <div className='relative max-w-screen-xl px-4 py-44 mx-auto lg:h-screen lg:items-center lg:flex'>
