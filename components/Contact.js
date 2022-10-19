@@ -88,7 +88,9 @@ export default function Contact() {
             <div className='sm:py-12 p-8 lg:col-span-2 rounded-xl lg:rounded-r-none bg-contact-default bg-bg-size'>
               {/* <p className='mt-6 uppercase'>CONTACT US</p> */}
 
-              <h1 className='text-3xl font-bold sm:text-5xl'>Send us a mail</h1>
+              <h1 className='text-3xl font-bold sm:text-5xl'>
+                Send us a message
+              </h1>
               <p className='max-w-xl text-lg mt-6'>
                 We would love to hear more about your goals and how we can help
                 you achieve them. If you have any questions about our business,
@@ -237,7 +239,7 @@ export default function Contact() {
                   </label>
                   <textarea
                     className='w-full p-3 text-sm border border-gray-200 rounded-lg'
-                    placeholder='Compose your mail or inquiry here'
+                    placeholder='Compose your message or any inquiry here'
                     rows='8'
                     id='message'
                     required
