@@ -217,7 +217,7 @@ export default function Footer() {
               </div>
 
               <p className='mt-4 sm:mt-0'>
-                &copy; 2015-2022 Energy Solution Engineering Ltd.
+                &copy; 2013-2022 Energy Solution Engineering Ltd.
               </p>
             </div>
 
