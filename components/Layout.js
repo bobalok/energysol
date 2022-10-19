@@ -1,6 +1,8 @@
 import Navi from "./Navi";
 import Footer from "./Footer";
 import Head from "next/head";
+import ScrollToTop from "react-scroll-to-top";
+import { ChevronUpIcon } from "@heroicons/react/solid";
 
 export default function Layout({ children }) {
   return (
@@ -33,8 +35,14 @@ export default function Layout({ children }) {
         <meta name='theme-color' content='#ffffff' />
       </Head>
       <Navi />
-      {/* <Navbar /> */}
-      {children}
+      <ScrollToTop
+        smooth
+        top={1000}
+        component={
+          <ChevronUpIcon className='bg-gradient-to-br from-sky-400 to-blue-500 rounded-sm text-white' />
+        }
+      />
+      <main>{children}</main>
       <Footer />
     </>
   );
