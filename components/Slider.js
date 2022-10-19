@@ -17,6 +17,7 @@ import slider1 from "../public/images/slider-images/slider1opt.webp";
 import slider2 from "../public/images/slider-images/slider2opt.webp";
 import slider3 from "../public/images/slider-images/slider3opt.webp";
 import slider4 from "../public/images/slider-images/slider4opt.webp";
+import Link from "next/link";
 
 export default function Slider() {
   return (
@@ -70,12 +71,11 @@ export default function Slider() {
                 </p>
 
                 <div className='flex flex-wrap justify-center gap-4 mt-8'>
-                  <a
-                    className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'
-                    href='#!'
-                  >
-                    Learn more
-                  </a>
+                  <Link href='/portfolio'>
+                    <a className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
+                      See more
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -104,12 +104,11 @@ export default function Slider() {
                 </p>
 
                 <div className='flex flex-wrap justify-center gap-4 mt-8'>
-                  <a
-                    className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'
-                    href='#!'
-                  >
-                    Learn more
-                  </a>
+                  <Link href='/portfolio'>
+                    <a className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
+                      See more
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -139,12 +138,11 @@ export default function Slider() {
                 </p>
 
                 <div className='flex flex-wrap justify-center gap-4 mt-8'>
-                  <a
-                    className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'
-                    href='#!'
-                  >
-                    Learn more
-                  </a>
+                  <Link href='/portfolio'>
+                    <a className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
+                      See more
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -173,12 +171,11 @@ export default function Slider() {
                 </p>
 
                 <div className='flex flex-wrap justify-center gap-4 mt-8'>
-                  <a
-                    className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'
-                    href='#!'
-                  >
-                    Learn more
-                  </a>
+                  <Link href='/portfolio'>
+                    <a className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
+                      See more
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
