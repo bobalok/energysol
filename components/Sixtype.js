@@ -155,9 +155,9 @@ export default function Sixtype() {
               </h3>
 
               <p className='mt-1 text-base text-gray-300'>
-                We are now the largest importer of fertilizer in Bangladesh. We
-                have developed a network for importing fertilizer through sea
-                and air routes, even using container ships when necessary
+                We are the largest importer of fertilizer in Bangladesh. We have
+                developed a network for importing fertilizer through sea and air
+                routes, even using container ships when necessary
                 {/* We import best quality fertilizer (in bulk) from around the
                   world. As we know fertilizer is an important input for
                   agriculture production, we’re also a proud member of
