@@ -7,7 +7,7 @@ import "swiper/css";
 // import Swiper core and required modules
 import { Autoplay } from "swiper";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import comp1 from "../public/images/clients-logos/comp_desco.png";
 import comp2 from "../public/images/clients-logos/comp_bpdb.png";
 import comp3 from "../public/images/clients-logos/comp_wzpdcl.png";

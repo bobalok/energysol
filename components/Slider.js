@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 // loading project images
 import slider1 from "../public/images/slider-images/slider1opt.webp";

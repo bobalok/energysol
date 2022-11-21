@@ -23,8 +23,8 @@ export default function Sisconcern() {
       <div className='max-w-lg mx-auto pt-12'>
         <Link
           href={"#!"}
-          className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
-
+          className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'
+        >
           <div className=''>
             <Image
               className='rounded-md'
@@ -51,14 +51,13 @@ export default function Sisconcern() {
                   SINAMM ENGINEERING LIMITED named as SINAMM was conceived and
                   formed in the year 2004 by a team of qualified Engineers and
                   other professionals possessing long-standing experience in
-                  various fields of Constructional activities with a vision
-                  and mission and to play a significant role in development
-                  and construction sector in near future.
+                  various fields of Constructional activities with a vision and
+                  mission and to play a significant role in development and
+                  construction sector in near future.
                 </p>
               </div>
             </dl>
           </div>
-
         </Link>
       </div>
 
@@ -163,7 +162,7 @@ export default function Sisconcern() {
         </section>
       </div>
 
-      <Contact />
+      {/* <Contact /> */}
     </section>
   );
 }

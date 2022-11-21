@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import mdPhoto from "../public/images/person-images/md-portrait.webp";
 
