@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import mdPhoto from "../public/images/person-images/md-portrait.webp";
 import sinamm from "../public/images/partners-logos/comp_sinamm.png";
