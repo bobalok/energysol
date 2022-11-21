@@ -28,104 +28,107 @@ export default function Memberships() {
       {/* Cards start here */}
       <div className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3'>
         {/* DCCI */}
-        <Link href={"#!"}>
-          <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
-            <div className=''>
-              <Image
-                className='rounded-md'
-                src={DCCI}
-                alt='DCCI'
-                //   height={170}
-                //   width={255}
-                layout='responsive'
-                //   objectFit='cover'
-                quality='70'
-                // blurDataURL='data:...' // automatically provided
-                placeholder='blur' // Optional blur-up while loading
-              />
-            </div>
+        <Link
+          href={"#!"}
+          className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
 
-            <div className='mt-2'>
-              <dl>
-                <div>
-                  <dt className='sr-only'>Company Name</dt>
+          <div className=''>
+            <Image
+              className='rounded-md'
+              src={DCCI}
+              alt='DCCI'
+              //   height={170}
+              //   width={255}
+              layout='responsive'
+              //   objectFit='cover'
+              quality='70'
+              // blurDataURL='data:...' // automatically provided
+              placeholder='blur' // Optional blur-up while loading
+            />
+          </div>
+          <div className='mt-2'>
+            <dl>
+              <div>
+                <dt className='sr-only'>Company Name</dt>
 
-                  <dd className='font-bold text-gray-600'>
-                    Dhaka Chamber of Commerce &amp; Industry
-                  </dd>
-                </div>
-              </dl>
-            </div>
-          </a>
+                <dd className='font-bold text-gray-600'>
+                  Dhaka Chamber of Commerce &amp; Industry
+                </dd>
+              </div>
+            </dl>
+          </div>
+
         </Link>
         {/* BIAA */}
-        <Link href={"#!"}>
-          <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
-            <div className=''>
-              <Image
-                className='rounded-md'
-                src={BIAA}
-                alt='norinco'
-                //   height={170}
-                //   width={255}
-                layout='responsive'
-                // objectFit='cover'
-                quality='70'
-                // blurDataURL='data:...' // automatically provided
-                placeholder='blur' // Optional blur-up while loading
-              />
-            </div>
+        <Link
+          href={"#!"}
+          className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
 
-            <div className='mt-2'>
-              <dl>
-                <div>
-                  <dt className='sr-only'>Company Name</dt>
+          <div className=''>
+            <Image
+              className='rounded-md'
+              src={BIAA}
+              alt='norinco'
+              //   height={170}
+              //   width={255}
+              layout='responsive'
+              // objectFit='cover'
+              quality='70'
+              // blurDataURL='data:...' // automatically provided
+              placeholder='blur' // Optional blur-up while loading
+            />
+          </div>
+          <div className='mt-2'>
+            <dl>
+              <div>
+                <dt className='sr-only'>Company Name</dt>
 
-                  <dd className='font-bold text-gray-600'>
-                    Bangladesh Indenting Agents Association
-                  </dd>
-                </div>
-              </dl>
-            </div>
-          </a>
+                <dd className='font-bold text-gray-600'>
+                  Bangladesh Indenting Agents Association
+                </dd>
+              </div>
+            </dl>
+          </div>
+
         </Link>
 
         {/* BFA */}
-        <Link href={"#!"}>
-          <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
-            <div className=''>
-              <Image
-                className='rounded-md'
-                src={BFA}
-                alt='norinco'
-                //   height={170}
-                //   width={255}
-                layout='responsive'
-                //   objectFit='cover'
-                quality='70'
-                // blurDataURL='data:...' // automatically provided
-                placeholder='blur' // Optional blur-up while loading
-              />
-            </div>
+        <Link
+          href={"#!"}
+          className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
 
-            <div className='mt-2'>
-              <dl>
-                {/* <div>
-                    <dt className='sr-only'>Establishment Date</dt>
+          <div className=''>
+            <Image
+              className='rounded-md'
+              src={BFA}
+              alt='norinco'
+              //   height={170}
+              //   width={255}
+              layout='responsive'
+              //   objectFit='cover'
+              quality='70'
+              // blurDataURL='data:...' // automatically provided
+              placeholder='blur' // Optional blur-up while loading
+            />
+          </div>
+          <div className='mt-2'>
+            <dl>
+              {/* <div>
+                  <dt className='sr-only'>Establishment Date</dt>
 
-                    <dd className='text-sm text-gray-500'>Energy company</dd>
-                  </div> */}
+                  <dd className='text-sm text-gray-500'>Energy company</dd>
+                </div> */}
 
-                <div>
-                  <dt className='sr-only'>Company Name</dt>
+              <div>
+                <dt className='sr-only'>Company Name</dt>
 
-                  <dd className='font-bold text-gray-600'>
-                    Bangladesh Fertilizer Association
-                  </dd>
-                </div>
-              </dl>
-            </div>
-          </a>
+                <dd className='font-bold text-gray-600'>
+                  Bangladesh Fertilizer Association
+                </dd>
+              </div>
+            </dl>
+          </div>
+
         </Link>
       </div>
       <div className='mt-12 p-8 rounded-xl border border-gray-200'>

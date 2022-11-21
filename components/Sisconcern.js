@@ -21,43 +21,44 @@ export default function Sisconcern() {
       </div>
 
       <div className='max-w-lg mx-auto pt-12'>
-        <Link href={"#!"}>
-          <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
-            <div className=''>
-              <Image
-                className='rounded-md'
-                src={sinamm}
-                alt='SINAMM Engineering Limited'
-                //   height={170}
-                //   width={255}
-                layout='responsive'
-                //   objectFit='cover'
-                quality='70'
-                // blurDataURL='data:...' // automatically provided
-                placeholder='blur' // Optional blur-up while loading
-              />
-            </div>
+        <Link
+          href={"#!"}
+          className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
 
-            <div className='mt-2'>
-              <dl>
-                <div>
-                  {/* <dt className='sr-only'>Company Name</dt>
+          <div className=''>
+            <Image
+              className='rounded-md'
+              src={sinamm}
+              alt='SINAMM Engineering Limited'
+              //   height={170}
+              //   width={255}
+              layout='responsive'
+              //   objectFit='cover'
+              quality='70'
+              // blurDataURL='data:...' // automatically provided
+              placeholder='blur' // Optional blur-up while loading
+            />
+          </div>
+          <div className='mt-2'>
+            <dl>
+              <div>
+                {/* <dt className='sr-only'>Company Name</dt>
 
-                  <dd className='font-bold text-gray-600'>
-                    SINAMM Engineering Limited
-                  </dd> */}
-                  <p className='text-lg text-gray-500 select-none sm:text-justify mt-4'>
-                    SINAMM ENGINEERING LIMITED named as SINAMM was conceived and
-                    formed in the year 2004 by a team of qualified Engineers and
-                    other professionals possessing long-standing experience in
-                    various fields of Constructional activities with a vision
-                    and mission and to play a significant role in development
-                    and construction sector in near future.
-                  </p>
-                </div>
-              </dl>
-            </div>
-          </a>
+                <dd className='font-bold text-gray-600'>
+                  SINAMM Engineering Limited
+                </dd> */}
+                <p className='text-lg text-gray-500 select-none sm:text-justify mt-4'>
+                  SINAMM ENGINEERING LIMITED named as SINAMM was conceived and
+                  formed in the year 2004 by a team of qualified Engineers and
+                  other professionals possessing long-standing experience in
+                  various fields of Constructional activities with a vision
+                  and mission and to play a significant role in development
+                  and construction sector in near future.
+                </p>
+              </div>
+            </dl>
+          </div>
+
         </Link>
       </div>
 

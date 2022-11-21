@@ -39,8 +39,8 @@ function classNames(...classes) {
 function MyLink(props) {
   let { href, children, ...rest } = props;
   return (
-    <Link href={href}>
-      <a {...rest}>{children}</a>
+    <Link href={href} {...rest}>
+      {children}
     </Link>
   );
 }
@@ -68,8 +68,10 @@ export default function Navi() {
               </div>
               <div className='flex-1 flex md:items-stretch md:justify-start'>
                 <div className='flex-shrink-0 flex items-center'>
-                  <Link href='/'>
-                    <a className='bg-logo-default bg-no-repeat w-72 sm:w-96 h-14 sm:h-14'></a>
+                  <Link
+                    href='/'
+                    className='bg-logo-default bg-no-repeat w-72 sm:w-96 h-14 sm:h-14'>
+
                   </Link>
                 </div>
               </div>
