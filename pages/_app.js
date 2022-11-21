@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps, router }) {
           key={router.route}
           initial='pageInitial'
           animate='pageAnimate'
+          mode='wait'
           // exit='pageExit'
           variants={{
             pageInitial: {

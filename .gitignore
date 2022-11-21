@@ -3,6 +3,8 @@
 /.yarn
 /.pnp
 .pnp.js
+.pnp.loader.mjs
+.pnp.cjs
 
 # testing
 /coverage
@@ -43,3 +45,4 @@ yarn.lock
 package-lock.json
 pnpm-lock.yaml
 analyze/nodejs.html
+
