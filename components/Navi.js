@@ -30,6 +30,11 @@ const dropdownNavigation = [
   // { name: " O&M Support", href: "/onm", current: false },
   { name: "Acquired Memberships", href: "/memberships", current: false },
   { name: "Sister Concern", href: "/sisconcern", current: false },
+  {
+    name: "Download Business Profile",
+    href: "/docs/ESEL-ES_Company-Profile.pdf",
+    current: false,
+  },
 ];
 
 function classNames(...classes) {
@@ -133,6 +138,17 @@ export default function Navi() {
                             >
                               Sister Concern
                             </MyLink>
+                          </Menu.Item>
+                          <Menu.Item>
+                            <a
+                              href='/docs/ESEL-ES_Company-Profile.pdf'
+                              alt='Download Energy Solution Company Profile'
+                              target='_self'
+                              rel='noopener noreferrer'
+                              className='hover:text-blue-600'
+                            >
+                              Download Business Profile
+                            </a>
                           </Menu.Item>
                         </div>
                       </Menu.Items>
