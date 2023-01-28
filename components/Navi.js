@@ -54,7 +54,7 @@ export default function Navi() {
   return (
     <Disclosure
       as='nav'
-      className='sticky z-50 top-0 shadow-md px-4 backdrop-blur-lg bg-white/90'
+      className='sticky z-50 top-0 shadow-md px-4 backdrop-blur-lg bg-white/70'
     >
       {({ open }) => (
         <>
