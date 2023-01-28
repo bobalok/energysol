@@ -139,6 +139,7 @@ export default function Navi() {
                               Sister Concern
                             </MyLink>
                           </Menu.Item>
+                          <hr />
                           <Menu.Item>
                             <a
                               href='/docs/ESEL-ES_Company-Profile.pdf'
