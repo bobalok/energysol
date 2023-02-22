@@ -26,9 +26,10 @@ export default function Partners() {
           <h2 className='text-3xl font-bold sm:text-4xl'>Associate Partners</h2>
 
           <p className='mt-4 text-gray-500 sm:text-xl sm:max-w-xl mx-auto text-center'>
-            We help our partners achieve more with strategy, creativity, and
-            innovation! In a world where its easy to speak but hard to be heard
-            - we work with our partners to find out their unique story.
+            We help our partners achieve more through strategy, creativity, and
+            innovation. With a focus on delivering tailored solutions that meet
+            the unique needs of each client, we enable businesses to achieve
+            their goals and unlock their full potential.
             {/* We have found that these partnerships provide us with a competitive
             advantage by giving us access to new markets and new technologies.
             We are also able to learn from their expertise and experience. */}
