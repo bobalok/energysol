@@ -18,10 +18,11 @@ export default function Portfolio() {
             Turnkey Based EPC Project
           </h2>
 
-          <p className='mt-4 text-lg text-gray-500'>
-            The company has been executing many notable projects in association
-            with its foreign partners and is one of the most trusted names in
-            the industry.
+          <p className='mt-4 text-gray-500 sm:text-xl sm:max-w-xl mx-auto text-center'>
+            Our company has executed several notable projects in collaboration
+            with foreign partners, earning a reputation as one of the most
+            trusted names in the industry. Partner with us for reliable and
+            efficient services.
           </p>
         </div>
         <div className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3'>
