@@ -2,6 +2,7 @@
 import { Pagination, Scrollbar, A11y, Autoplay, EffectFade } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 
 // Import Swiper styles
 import "swiper/css";
@@ -72,8 +73,12 @@ export default function Slider() {
 
                 <div className='flex flex-wrap justify-center gap-4 mt-8'>
                   <Link href='/portfolio'>
-                    <a className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
+                    <a className='inline-flex items-center group  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
                       See more
+                      <ArrowNarrowRightIcon
+                        className='w-5 h-5 ml-3 transition-transform transform group-hover:translate-x-2'
+                        fill='currentColor'
+                      />
                     </a>
                   </Link>
                 </div>
@@ -105,8 +110,12 @@ export default function Slider() {
 
                 <div className='flex flex-wrap justify-center gap-4 mt-8'>
                   <Link href='/portfolio'>
-                    <a className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
+                    <a className='inline-flex items-center group  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
                       See more
+                      <ArrowNarrowRightIcon
+                        className='w-5 h-5 ml-3 transition-transform transform group-hover:translate-x-2'
+                        fill='currentColor'
+                      />
                     </a>
                   </Link>
                 </div>
@@ -139,8 +148,12 @@ export default function Slider() {
 
                 <div className='flex flex-wrap justify-center gap-4 mt-8'>
                   <Link href='/portfolio'>
-                    <a className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
+                    <a className='inline-flex items-center group  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
                       See more
+                      <ArrowNarrowRightIcon
+                        className='w-5 h-5 ml-3 transition-transform transform group-hover:translate-x-2'
+                        fill='currentColor'
+                      />
                     </a>
                   </Link>
                 </div>
@@ -172,8 +185,12 @@ export default function Slider() {
 
                 <div className='flex flex-wrap justify-center gap-4 mt-8'>
                   <Link href='/portfolio'>
-                    <a className='block  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
+                    <a className='inline-flex items-center group  px-12 py-3 text-lg font-medium text-white hover:text-black border-2 border-white rounded sm:w-auto hover:bg-white transition-all'>
                       See more
+                      <ArrowNarrowRightIcon
+                        className='w-5 h-5 ml-3 transition-transform transform group-hover:translate-x-2'
+                        fill='currentColor'
+                      />
                     </a>
                   </Link>
                 </div>

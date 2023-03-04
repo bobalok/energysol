@@ -7,6 +7,7 @@ import {
   faSeedling,
   faScrewdriverWrench,
 } from "@fortawesome/free-solid-svg-icons";
+import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 
 export default function Sixtype() {
@@ -168,9 +169,15 @@ export default function Sixtype() {
 
           <div className='mt-12 text-center'>
             <Link href={"/contact"}>
-              <a className='inline-flex items-center px-8 py-3 mt-8 text-white bg-blue-600 border border-blue-600 rounded hover:bg-transparent active:text-blue-400 focus:outline-none focus:ring'>
-                <span className='text-base font-medium'> Contact us </span>
-                <svg
+              <a className='inline-flex items-center group px-8 py-3 mt-8 text-white bg-blue-600 border border-blue-600 rounded transition-all hover:bg-transparent active:text-blue-400 focus:outline-none focus:ring'>
+                <span className='text-base font-medium inline-flex items-center'>
+                  Contact us
+                  <ArrowNarrowRightIcon
+                    className='w-5 h-5 ml-3 transition-transform transform group-hover:translate-x-2'
+                    fill='currentColor'
+                  />
+                </span>
+                {/* <svg
                   className='w-5 h-5 ml-3'
                   xmlns='http://www.w3.org/2000/svg'
                   fill='none'
@@ -183,7 +190,7 @@ export default function Sixtype() {
                     strokeWidth='2'
                     d='M17 8l4 4m0 0l-4 4m4-4H3'
                   />
-                </svg>
+                </svg> */}
               </a>
             </Link>
           </div>

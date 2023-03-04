@@ -255,7 +255,7 @@ export default function Contact() {
                   <button
                     type='submit'
                     disabled={status.submitting}
-                    className='inline-flex items-center group justify-center w-full px-5 py-3 font-bold text-white bg-black rounded-lg sm:w-auto'
+                    className='inline-flex items-center group justify-center w-full px-5 py-3 font-bold text-white bg-black rounded sm:w-auto'
                   >
                     {!status.submitting ? (
                       !status.submitted ? (
