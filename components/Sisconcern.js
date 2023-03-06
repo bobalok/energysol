@@ -97,8 +97,13 @@ export default function Sisconcern() {
 
             <blockquote className='sm:col-span-2'>
               <p className='text-xl font-medium sm:text-2xl sm:text-justify'>
-                &quot;We have joined our hands to create a strong hold and take
-                Bangladesh&rsquo;s development to a new horizon.&quot;
+                {/* &quot;We have joined our hands to create a strong hold and take
+                Bangladesh&rsquo;s development to a new horizon.&quot; */}
+                &quot;Our mission is to work hand in hand with our clients to
+                deliver engineering, construction, and related services that
+                make Bangladesh a better place for the present and future
+                generations. Trust us for innovative solutions that drive growth
+                and success.&quot;
               </p>
 
               <cite className='inline-flex items-center mt-8 not-italic'>
