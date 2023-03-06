@@ -130,12 +130,13 @@ export default function Memberships() {
       </div>
       <div className='mt-12 p-8 rounded-xl border border-gray-200'>
         <p className='text-lg text-gray-500 select-none sm:text-justify'>
-          Each year, our organization becomes more and more sustainable. At our
-          company, we are committed to maintaining the highest standards of
-          honesty and integrity in all of our business dealings. That&rsquo;s
-          why we have acquired memberships from respected agencies, giving our
-          clients and partners the confidence and peace of mind they need to
-          trust us with their projects.
+          Each year, <strong> Energy Solution Engineering Limited</strong>{" "}
+          becomes more and more sustainable. At our company, we are committed to
+          maintaining the highest standards of honesty and integrity in all of
+          our business dealings. That&rsquo;s why we have acquired memberships
+          from respected agencies, giving our clients and partners the
+          confidence and peace of mind they need to trust us with their
+          projects.
         </p>
       </div>
     </section>
