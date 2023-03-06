@@ -39,7 +39,7 @@ export default function Layout({ children }) {
         smooth
         top={1000}
         component={
-          <ChevronUpIcon className='bg-gradient-to-br from-sky-400 to-blue-500 rounded-sm text-white' />
+          <ChevronUpIcon className='bg-gradient-to-br from-sky-400 to-blue-500 hover:from-sky-500 hover:to-blue-600 rounded-sm text-white' />
         }
       />
       <main>{children}</main>
