@@ -130,12 +130,12 @@ export default function Memberships() {
       </div>
       <div className='mt-12 p-8 rounded-xl border border-gray-200'>
         <p className='text-lg text-gray-500 select-none sm:text-justify'>
-          It’s not easy to make it this far, but it’s worth it. Each year, our
-          organization becomes more and more sustainable. Our diverse
-          sustainability committee does a great job of creating a plan for
-          promoting environmental stewardship for our company and passionate
-          community members. The sustainability challenges we face will never be
-          easy to overcome, but we are unstoppable.
+          Each year, our organization becomes more and more sustainable. At our
+          company, we are committed to maintaining the highest standards of
+          honesty and integrity in all of our business dealings. That&rsquo;s
+          why we have acquired memberships from respected agencies, giving our
+          clients and partners the confidence and peace of mind they need to
+          trust us with their projects.
         </p>
       </div>
     </section>
