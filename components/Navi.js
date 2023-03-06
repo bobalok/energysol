@@ -30,11 +30,11 @@ const dropdownNavigation = [
   // { name: " O&M Support", href: "/onm", current: false },
   { name: "Acquired Memberships", href: "/memberships", current: false },
   { name: "Sister Concern", href: "/sisconcern", current: false },
-  {
-    name: "Download Business Profile",
-    href: "/docs/ESEL-ES_Company-Profile.pdf",
-    current: false,
-  },
+  // {
+  //   name: "Download Business Profile",
+  //   href: "/docs/ESEL-ES_Company-Profile.pdf",
+  //   current: false,
+  // },
 ];
 
 function classNames(...classes) {
@@ -139,7 +139,7 @@ export default function Navi() {
                               Sister Concern
                             </MyLink>
                           </Menu.Item>
-                          <hr />
+                          {/* <hr />
                           <Menu.Item>
                             <a
                               href='/docs/ESEL-ES_Company-Profile.pdf'
@@ -150,7 +150,7 @@ export default function Navi() {
                             >
                               Download Business Profile
                             </a>
-                          </Menu.Item>
+                          </Menu.Item> */}
                         </div>
                       </Menu.Items>
                     </Transition>
