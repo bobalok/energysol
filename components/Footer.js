@@ -204,7 +204,7 @@ export default function Footer() {
               <div className='flex space-x-3'>
                 <a className='hover:opacity-75' href='#!'>
                   {" "}
-                  Developed by 🐧|Bigbird.
+                  Developed by 🐧 Bigbird.
                 </a>
                 {/* <a class='hover:opacity-75' href=''>
                   {" "}
