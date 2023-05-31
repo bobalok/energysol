@@ -204,7 +204,7 @@ export default function Footer() {
               <div className='flex space-x-3'>
                 <a className='hover:opacity-75' href='#!'>
                   {" "}
-                  Developed by 🐧 Bigbird.
+                  Developed by ▶️Betternet.
                 </a>
                 {/* <a class='hover:opacity-75' href=''>
                   {" "}
@@ -217,7 +217,8 @@ export default function Footer() {
               </div>
 
               <p className='mt-4 sm:mt-0'>
-                &copy; 2010-2023 Energy Solution Engineering Ltd.
+                &copy; 2010-{new Date().getFullYear()} Energy Solution
+                Engineering Ltd.
               </p>
             </div>
 
