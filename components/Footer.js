@@ -36,8 +36,9 @@ export default function Footer() {
               </p>
 
               <ul className='mt-8 space-y-2 text-sm'>
-                <li>Sunday - Thursday: 10am - 6pm</li>
-                <li>24x7 Available on Live Chat</li>
+                <li>Saturday - Thursday: 10am - 6pm</li>
+                <li>House 16, Flat-SW4, Road-10, Gulshan-1</li>
+
                 <br />
                 <a
                   href='https://goo.gl/maps/jPFLm4puSqqdKxoE6'
@@ -170,6 +171,9 @@ export default function Footer() {
                   </a> */}
                   <Link href='/privacypolicy'>
                     <a className='hover:opacity-75'> Privacy Policy </a>
+                  </Link>
+                  <Link href='https://up.energysolutionbd.net/status/energysol'>
+                    <a className='hover:opacity-75'> Availability Check </a>
                   </Link>
                 </nav>
               </div>
