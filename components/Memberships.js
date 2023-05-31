@@ -6,6 +6,7 @@ import DCCI from "../public/images/membership-logos/comp_dcci.png";
 import BIAA from "../public/images/membership-logos/comp_biaa.png";
 // import BR from "../public/images/membership-logos/comp_br.png";
 import BFA from "../public/images/membership-logos/comp_bfa.png";
+import BFEIA from "../public/images/membership-logos/comp_bfeia.jpg";
 
 export default function Memberships() {
   return (
@@ -26,7 +27,7 @@ export default function Memberships() {
       </div>
 
       {/* Cards start here */}
-      <div className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3'>
+      <div className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-4'>
         {/* DCCI */}
         <Link href={"#!"}>
           <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
@@ -121,6 +122,43 @@ export default function Memberships() {
 
                   <dd className='font-bold text-gray-600'>
                     Bangladesh Fertilizer Association
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </a>
+        </Link>
+        {/* BFEIA */}
+        <Link href={"#!"}>
+          <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
+            <div className=''>
+              <Image
+                className='rounded-md'
+                src={BFEIA}
+                alt='norinco'
+                //   height={170}
+                //   width={255}
+                layout='responsive'
+                //   objectFit='cover'
+                quality='70'
+                // blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
+              />
+            </div>
+
+            <div className='mt-2'>
+              <dl>
+                {/* <div>
+                    <dt className='sr-only'>Establishment Date</dt>
+
+                    <dd className='text-sm text-gray-500'>Energy company</dd>
+                  </div> */}
+
+                <div>
+                  <dt className='sr-only'>Company Name</dt>
+
+                  <dd className='font-bold text-gray-600'>
+                    Bangladesh Fish Exporters & Importers Association
                   </dd>
                 </div>
               </dl>

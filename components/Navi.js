@@ -28,7 +28,7 @@ const defaultNavigation = [
 
 const dropdownNavigation = [
   // { name: " O&M Support", href: "/onm", current: false },
-  { name: "Acquired Memberships", href: "/memberships", current: false },
+  { name: "Association Memberships", href: "/memberships", current: false },
   { name: "Sister Concern", href: "/sisconcern", current: false },
   // {
   //   name: "Download Business Profile",
@@ -114,7 +114,7 @@ export default function Navi() {
                       leaveFrom='transform opacity-100 scale-100'
                       leaveTo='transform opacity-0 scale-95'
                     >
-                      <Menu.Items className='absolute right-0 w-56 mt-2 origin-top-right backdrop-blur-sm bg-white/90 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
+                      <Menu.Items className='absolute right-0 w-64 mt-2 origin-top-right backdrop-blur-sm bg-white/90 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
                         <div className='px-4 py-8 flex flex-col space-y-2 text-gray-700 text-base font-bold'>
                           {/* <Menu.Item>
                             <MyLink href='/onm' className='hover:text-blue-600'>
@@ -127,7 +127,7 @@ export default function Navi() {
                               href='/memberships'
                               className='hover:text-blue-600'
                             >
-                              Acquired Memberships
+                              Association Memberships
                             </MyLink>
                           </Menu.Item>
                           <hr />
