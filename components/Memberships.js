@@ -168,13 +168,16 @@ export default function Memberships() {
       </div>
       <div className='mt-12 p-8 rounded-xl border border-gray-200'>
         <p className='text-lg text-gray-500 select-none sm:text-justify'>
-          Each year, <strong> Energy Solution Engineering Limited</strong>{" "}
+          Each year,{" "}
+          <strong>
+            {" "}
+            Energy Solution & Energy Solution Engineering Limited
+          </strong>{" "}
           becomes more and more sustainable. At our company, we are committed to
           maintaining the highest standards of honesty and integrity in all of
-          our business dealings. That&rsquo;s why we have acquired memberships
-          from respected agencies, giving our clients and partners the
-          confidence and peace of mind they need to trust us with their
-          projects.
+          our business dealings. We are proud members of the DCCI, BIAA, BFA and
+          BFEIA. These memberships give us access to a wide range of resources
+          and support that has helped us to grow our business in Bangladesh.
         </p>
       </div>
     </section>
