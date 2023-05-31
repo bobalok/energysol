@@ -6,7 +6,7 @@ import DCCI from "../public/images/membership-logos/comp_dcci.png";
 import BIAA from "../public/images/membership-logos/comp_biaa.png";
 // import BR from "../public/images/membership-logos/comp_br.png";
 import BFA from "../public/images/membership-logos/comp_bfa.png";
-import BFEIA from "../public/images/membership-logos/comp_bfeia.jpg";
+import BFEIA from "../public/images/membership-logos/comp_bfeia.png";
 
 export default function Memberships() {
   return (
