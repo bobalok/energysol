@@ -172,7 +172,7 @@ export default function Footer() {
                   <Link href='/privacypolicy'>
                     <a className='hover:opacity-75'> Privacy Policy </a>
                   </Link>
-                  <Link href='https://up.energysolutionbd.net/status/energysol'>
+                  <Link href='https://up.energysolutionbd.net/status/availability-check'>
                     <a className='hover:opacity-75'> Availability Check </a>
                   </Link>
                 </nav>
