@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        abril: ["Abril Fatface", "cursive"],
+      },
       backgroundImage: (theme) => ({
         "logo-default": "url('/energysolution.svg')",
         "contact-default": "url('/images/bg-images/bg-elaborated.webp')",

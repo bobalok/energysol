@@ -208,7 +208,8 @@ export default function Footer() {
               <div className='flex space-x-3'>
                 <a className='hover:opacity-75' href='#!'>
                   {" "}
-                  Developed by ▶️Betternet.
+                  Developed by{" "}
+                  <span className='font-abril text-xl'>markten</span>
                 </a>
                 {/* <a class='hover:opacity-75' href=''>
                   {" "}
