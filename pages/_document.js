@@ -10,6 +10,11 @@ class MyDocument extends Document {
     return (
       <Html lang='en' className='scroll-smooth'>
         <Head />
+        {/* <link
+            rel='stylesheet'
+            href='https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0'
+          />
+        </Head> */}
         <body>
           <Main />
           <NextScript />

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { RiBookmarkFill } from "react-icons/ri";
+import { IoBookmarkSharp } from "react-icons/io5";
 
 const DynamicMapFooter = dynamic(() => import("../components/Mapiframe"), {
   ssr: true,
@@ -206,10 +208,15 @@ export default function Footer() {
           <div className='pt-12 mt-12 border-t border-gray-800'>
             <div className='text-sm text-gray-300 sm:items-center sm:justify-between sm:flex'>
               <div className='flex space-x-3'>
-                <a className='hover:opacity-75' href='#!'>
+                <a className='hover:opacity-75 flex items-center' href='#!'>
                   {" "}
-                  Developed by{" "}
-                  <span className='font-abril text-xl'>markten</span>
+                  Maintained by{" "}
+                  <span className='font-abril text-xl flex items-center ml-1'>
+                    {/* <span className='material-symbols-sharp'>bookmark</span> */}
+                    {/* <RiBookmarkFill /> */}
+                    <IoBookmarkSharp className='mt-1' />
+                    markten
+                  </span>
                 </a>
                 {/* <a class='hover:opacity-75' href=''>
                   {" "}
