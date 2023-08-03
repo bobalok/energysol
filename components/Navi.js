@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from "react";
 import { useRouter } from "next/router";
+import { Fragment } from "react";
 import { cn } from "../lib/utils";
 // import { Disclosure, Menu, Transition, Switch } from "@headlessui/react";
 // import { Fragment } from "react";
@@ -20,30 +20,10 @@ const defaultNavigation = [
   // { name: "Residential", href: "/residential", current: false },
   // { name: "Business", href: "/", current: false },
   // { name: "Blog", href: "#", current: false },
-  {
-    name: "Home",
-    href: "/",
-    current: false,
-    color: "focus:text-tatsuBTN2 xs:bg-gray-900",
-  },
-  {
-    name: "Portfolio",
-    href: "/portfolio",
-    current: false,
-    color: "focus:text-tatsuBTN2 xs:bg-gray-900",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-    current: false,
-    color: "focus:text-tatsuBTN2 xs:bg-gray-900",
-  },
-  {
-    name: "Partners",
-    href: "/partners",
-    current: false,
-    color: "focus:text-tatsuBTN2 xs:bg-gray-900",
-  },
+  { name: "Home", href: "/", current: false },
+  { name: "Portfolio", href: "/portfolio", current: false },
+  { name: "Contact", href: "/contact", current: false },
+  { name: "Partners", href: "/partners", current: false },
   //   { name: "More", href: "#whyus", current: false },
   // { name: "F.A.Q", href: "/", current: false },
 ];
@@ -59,9 +39,9 @@ const dropdownNavigation = [
   // },
 ];
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(" ");
-// }
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
 function MyLink(props) {
   let { href, children, ...rest } = props;
@@ -113,25 +93,13 @@ export default function Navi() {
                           ? "text-base font-bold text-blue-500"
                           : "rounded-md text-gray-700 text-base font-bold"
                       )}
-
-                      // className={classNames(
-                      //   item.current
-                      //     ? "focus:text-tatsuBTN2 xs:bg-gray-900"
-                      //     : "hover:text-blue-600 focus:text-blue-500"
-                      //   "rounded-md text-gray-700 text-base font-bold"
-                      // )}
-                      // aria-current={item.current ? "page" : undefined}
                     >
                       {item.name}
                     </MyLink>
                   ))}
                   <Menu as='div' className=''>
                     <div>
-                      <Menu.Button
-                        className={cn(
-                          "relative inline-flex justify-center items-center w-full text-md font-bold text-gray-700 hover:text-blue-600"
-                        )}
-                      >
+                      <Menu.Button className='relative inline-flex justify-center items-center w-full text-md font-bold text-gray-700 hover:text-blue-600'>
                         More
                         <ChevronDownIcon
                           className='w-4 h-4'
@@ -225,12 +193,13 @@ export default function Navi() {
                   key={item.name}
                   as='a'
                   href={item.href}
-                  className={cn(
-                    "hover:text-blue-600",
-                    router.pathname === item.href
-                      ? "text- text-blue-500"
-                      : "rounded-md text-gray-700 font-bold"
+                  className={classNames(
+                    item.current
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-600 hover:bg-gray-700 hover:text-white",
+                    "block px-3 py-2 rounded-md text-base font-medium"
                   )}
+                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
@@ -241,13 +210,13 @@ export default function Navi() {
                   key={item.name}
                   as='a'
                   href={item.href}
-                  // className={classNames(
-                  //   item.current
-                  //     ? "bg-gray-900 text-white"
-                  //     : "text-gray-600 hover:bg-gray-700 hover:text-white",
-                  //   "block px-3 py-2 rounded-md text-base font-medium"
-                  // )}
-                  // aria-current={item.current ? "page" : undefined}
+                  className={classNames(
+                    item.current
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-600 hover:bg-gray-700 hover:text-white",
+                    "block px-3 py-2 rounded-md text-base font-medium"
+                  )}
+                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
