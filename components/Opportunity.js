@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
-import mdPhoto from "../public/images/person-images/md-portrait.webp";
-import sinamm from "../public/images/partners-logos/comp_sinamm.png";
+// import Link from "next/link";
+// import mdPhoto from "../public/images/person-images/md-portrait.webp";
+// import sinamm from "../public/images/partners-logos/comp_sinamm.png";
 import handshake from "../public/images/handshakes.jpg";
 import Contact from "./Contact";
 
