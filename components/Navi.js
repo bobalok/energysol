@@ -30,8 +30,16 @@ const defaultNavigation = [
 
 const dropdownNavigation = [
   // { name: " O&M Support", href: "/onm", current: false },
-  { name: "Association Memberships", href: "/memberships", current: false },
-  { name: "Sister Concern", href: "/sisconcern", current: false },
+  {
+    name: "Association Memberships",
+    href: "/memberships",
+    current: false,
+  },
+  {
+    name: "Opportunities & Joint ventures",
+    href: "/opportunities",
+    current: false,
+  },
   // {
   //   name: "Download Business Profile",
   //   href: "/docs/ESEL-ES_Company-Profile.pdf",
@@ -54,6 +62,10 @@ function MyLink(props) {
 
 export default function Navi() {
   const router = useRouter();
+
+  const isActivePage = (page) => {
+    return router.pathname === page;
+  };
   return (
     <Disclosure
       as='nav'
@@ -97,16 +109,20 @@ export default function Navi() {
                       {item.name}
                     </MyLink>
                   ))}
-                  <Menu as='div' className=''>
-                    <div>
-                      <Menu.Button className='relative inline-flex justify-center items-center w-full text-md font-bold text-gray-700 hover:text-blue-600'>
-                        More
-                        <ChevronDownIcon
-                          className='w-4 h-4'
-                          aria-hidden='true'
-                        />
-                      </Menu.Button>
-                    </div>
+                  <Menu as='div'>
+                    <Menu.Button
+                      className={cn(
+                        "relative inline-flex justify-center items-center w-full text-md font-bold text-gray-700 hover:text-blue-600",
+                        {
+                          "text-blue-500": isActivePage("/memberships"),
+                        },
+                        { "text-blue-500": isActivePage("/opportunities") }
+                      )}
+                    >
+                      More
+                      <ChevronDownIcon className='w-4 h-4' aria-hidden='true' />
+                    </Menu.Button>
+
                     <Transition
                       as={Fragment}
                       enter='transition ease-out duration-100'
@@ -127,7 +143,9 @@ export default function Navi() {
                           <Menu.Item>
                             <MyLink
                               href='/memberships'
-                              className='hover:text-blue-600'
+                              className={cn("hover:text-blue-600", {
+                                "text-blue-500": isActivePage("/memberships"),
+                              })}
                             >
                               Association Memberships
                             </MyLink>
@@ -135,10 +153,12 @@ export default function Navi() {
                           <hr />
                           <Menu.Item>
                             <MyLink
-                              href='/sisconcern'
-                              className='hover:text-blue-600'
+                              href='/opportunities'
+                              className={cn("hover:text-blue-600", {
+                                "text-blue-500": isActivePage("/opportunities"),
+                              })}
                             >
-                              Sister Concern
+                              Opportunities & <br /> Joint ventures
                             </MyLink>
                           </Menu.Item>
                           {/* <hr />
