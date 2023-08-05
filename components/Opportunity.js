@@ -2,13 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import mdPhoto from "../public/images/person-images/md-portrait.webp";
 import sinamm from "../public/images/partners-logos/comp_sinamm.png";
-import Contact from "../components/Contact";
+import handshake from "../public/images/handshakes.jpg";
+import Contact from "./Contact";
 
-export default function Sisconcern() {
+export default function opportunities() {
   return (
     <section className='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
       <div className='max-w-xl mx-auto text-center'>
-        <h2 className='text-3xl font-bold sm:text-4xl'>Sister Concern</h2>
+        <h2 className='text-3xl font-bold sm:text-4xl'>Joint ventures</h2>
 
         {/* <p className='text-lg text-gray-500 select-none sm:text-justify mt-4'>
           SINAMM ENGINEERING LIMITED named as SINAMM was conceived and formed in
@@ -18,47 +19,6 @@ export default function Sisconcern() {
           significant role in development and construction sector in near
           future.
         </p> */}
-      </div>
-
-      <div className='max-w-lg mx-auto pt-12'>
-        <Link href={"#!"}>
-          <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
-            <div className=''>
-              <Image
-                className='rounded-md'
-                src={sinamm}
-                alt='SINAMM Engineering Limited'
-                //   height={170}
-                //   width={255}
-                layout='responsive'
-                //   objectFit='cover'
-                quality='70'
-                // blurDataURL='data:...' // automatically provided
-                placeholder='blur' // Optional blur-up while loading
-              />
-            </div>
-
-            <div className='mt-2'>
-              <dl>
-                <div>
-                  {/* <dt className='sr-only'>Company Name</dt>
-
-                  <dd className='font-bold text-gray-600'>
-                    SINAMM Engineering Limited
-                  </dd> */}
-                  <p className='text-lg text-gray-500 select-none sm:text-justify mt-4'>
-                    SINAMM ENGINEERING LIMITED named as SINAMM was conceived and
-                    formed in the year 2004 by a team of qualified Engineers and
-                    other professionals possessing long-standing experience in
-                    various fields of Constructional activities with a vision
-                    and mission and to play a significant role in development
-                    and construction sector in near future.
-                  </p>
-                </div>
-              </dl>
-            </div>
-          </a>
-        </Link>
       </div>
 
       {/* <div className='mt-12 p-8 rounded-xl border border-gray-200'>
@@ -80,8 +40,8 @@ export default function Sisconcern() {
               <div className='aspect-w-1 aspect-h-1'>
                 <Image
                   className=''
-                  src={mdPhoto}
-                  alt='Arif I.Z Rahman Photo'
+                  src={handshake}
+                  alt='Shaking Hands Photo'
                   layout='fill'
                   objectFit='contain'
                   quality='70'
@@ -91,11 +51,14 @@ export default function Sisconcern() {
               </div>
 
               <div className='absolute inline-flex px-4 py-2 bg-white rounded-lg shadow-xl -bottom-4 -right-4'>
-                <span className='inline-block w-12 h-10 bg-gray-300 rounded-lg'></span>
+                <span className='inline-block w-12 h-10 bg-black rounded-lg'></span>
               </div>
             </div>
 
             <blockquote className='sm:col-span-2'>
+              <h1 className='text-sm text-gray-500 uppercase underline font-bold'>
+                Sinamm Engineering Ltd:
+              </h1>
               <p className='text-xl font-medium sm:text-2xl sm:text-justify'>
                 {/* &quot;We have joined our hands to create a strong hold and take
                 Bangladesh&rsquo;s development to a new horizon.&quot; */}
@@ -137,7 +100,7 @@ export default function Sisconcern() {
                   </svg>
                   <span>LinkedIn</span>
                 </a>
-                <a
+                {/* <a
                   className='hover:text-blue-600 flex'
                   href='https://sinammengineering.com/top-management/'
                   target='_blank'
@@ -160,7 +123,7 @@ export default function Sisconcern() {
                     />
                   </svg>
                   <span>Sinamm&rsquo;s website</span>
-                </a>
+                </a> */}
               </div>
             </blockquote>
           </div>
