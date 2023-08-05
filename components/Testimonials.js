@@ -77,7 +77,7 @@ export default function Testimonials() {
 
                 <a
                   className='hover:text-green-600 flex'
-                  href='https://wa.me/+8801711591070'
+                  href='https://wa.me/+8801711591070?text=Obtained%20your%20WhatsApp%20contact%20from%20the%20website.%20Are%20you%20free%20for%20a%20conversation%3F'
                   target='_blank'
                   rel='noreferrer'
                 >
