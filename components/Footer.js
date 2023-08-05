@@ -1,7 +1,9 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { RiBookmarkFill } from "react-icons/ri";
+import WhatsAppButtonGreenMedium from "../public/WhatsAppButtonGreenMedium.svg";
+// import { RiBookmarkFill } from "react-icons/ri";
 import { IoBookmarkSharp } from "react-icons/io5";
+import Image from "next/image";
 
 const DynamicMapFooter = dynamic(() => import("../components/Mapiframe"), {
   ssr: true,
@@ -62,7 +64,23 @@ export default function Footer() {
                 </a>
               </ul>
 
-              <div className='flex mt-16 space-x-3'>
+              <div className='mt-8 space-y-2'>
+                <a
+                  aria-label='Chat on WhatsApp'
+                  href='https://wa.me/+8801711591070?text=Obtained%20your%20WhatsApp%20contact%20from%20the%20website.%20Are%20you%20free%20for%20a%20conversation%3F'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <Image
+                    alt='Chat on WhatsApp'
+                    layout='intrinsic'
+                    src={WhatsAppButtonGreenMedium}
+                  />
+                </a>
+                <a />
+              </div>
+
+              {/* <div className='flex mt-8 space-x-3'>
                 <a
                   className='hover:text-green-400 p-2 border rounded-full border-white/25 hover:opacity-75'
                   href='https://api.whatsapp.com/send?phone=+8801685626238'
@@ -146,7 +164,7 @@ export default function Footer() {
                     />
                   </svg>
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className='grid grid-cols-1 gap-4'>
