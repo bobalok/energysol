@@ -108,6 +108,10 @@ export default function Contact() {
                 <strong>Head Office :</strong> Plot 16, Road 10, Suite SW-4,
                 Gulshan-1, Dhaka-1212, Bangladesh.
               </address>
+              {/* <address className='mt-4 not-italic text-gray-700'>
+                <strong>Registered Address :</strong> Advance Noorani Tower (9th
+                Floor), <br /> 1 Mohakhali C/A, Dhaka-1212, Bangladesh.
+              </address> */}
 
               <div className='mt-8'>
                 {/* <span>Call</span>
