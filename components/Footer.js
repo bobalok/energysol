@@ -39,9 +39,23 @@ export default function Footer() {
                 </a>
               </p>
 
-              <ul className='mt-8 space-y-2 text-sm'>
-                <li>Saturday - Thursday: 10am - 6pm</li>
-                <li>House 16, Flat-SW4, Road-10, Gulshan-1</li>
+              <ul className='mt-8 space-y-2 text-sm '>
+                <li>
+                  {" "}
+                  <strong>Working Hour:</strong> Saturday - Thursday: 10am - 6pm
+                </li>
+                <li>
+                  <address className='not-italic'>
+                    <strong>Head Office:</strong> Plot 16, Road 10, Suite SW-4,
+                    Gulshan-1, Dhaka-1212, Bangladesh.
+                  </address>
+                </li>
+                <li>
+                  <address className='not-italic'>
+                    <strong>Registered Address:</strong> Advance Noorani Tower
+                    (9th Floor), <br /> 1 Mohakhali C/A, Dhaka-1212, Bangladesh.
+                  </address>
+                </li>
 
                 <br />
                 <a
