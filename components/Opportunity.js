@@ -9,7 +9,7 @@ export default function opportunities() {
   return (
     <section className='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
       <div className='max-w-xl mx-auto text-center'>
-        <h2 className='text-3xl font-bold sm:text-4xl'>Joint ventures</h2>
+        <h2 className='text-3xl font-bold sm:text-4xl'>Sister Concern</h2>
 
         {/* <p className='text-lg text-gray-500 select-none sm:text-justify mt-4'>
           SINAMM ENGINEERING LIMITED named as SINAMM was conceived and formed in

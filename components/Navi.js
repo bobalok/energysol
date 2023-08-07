@@ -36,7 +36,7 @@ const dropdownNavigation = [
     current: false,
   },
   {
-    name: "Opportunities & Joint ventures",
+    name: "Sister Concern",
     href: "/opportunities",
     current: false,
   },
@@ -158,7 +158,7 @@ export default function Navi() {
                                 "text-blue-500": isActivePage("/opportunities"),
                               })}
                             >
-                              Opportunities & <br /> Joint ventures
+                              Sister Concern
                             </MyLink>
                           </Menu.Item>
                           {/* <hr />
