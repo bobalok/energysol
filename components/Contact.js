@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import axios from "axios";
-import WhatsAppButtonGreenMedium from "../public/WhatsAppButtonGreenMedium.svg";
+// import { useGoogleReCaptcha as ReCAPTCHA } from "react-google-recaptcha-v3";
+// import WhatsAppButtonGreenMedium from "../public/WhatsAppButtonGreenMedium.svg";
 
 import {
   CheckIcon,
   ChevronDoubleRightIcon,
   ArrowNarrowRightIcon,
 } from "@heroicons/react/solid";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Contact() {
   // mail functions goes here
   const form_id = process.env.NEXT_PUBLIC_FORM;
+  const sitekey = process.env.RECAPCHA_SITE_KEY;
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -59,7 +61,7 @@ export default function Contact() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: "POST",
-      url: "https://formspree.io/mzbwdeed",
+      url: `${form_id}`,
       data: inputs,
     })
       .then((_response) => {
@@ -253,10 +255,7 @@ export default function Contact() {
                     value={inputs.message}
                   />
                 </div>
-                {/* <ReCAPTCHA
-                  sitekey='6Lf9d8UhAAAAAKl6aMfJMcVHg8Mav6gz1IKwu3BF'
-                  onChange={handleChange}
-                /> */}
+                {/* <ReCAPTCHA sitekey={sitekey} onChange={handleChange} /> */}
                 <div className='mt-4 space-y-4 sm:space-y-0 sm:flex sm:items-center sm:space-x-4'>
                   <button
                     type='submit'
