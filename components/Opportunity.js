@@ -5,7 +5,7 @@ import handshake from "../public/images/handshakes.jpg";
 import { OfficeBuildingIcon, TagIcon } from "@heroicons/react/outline";
 import sinamm from "../public/images/partners-logos/comp_sinamm_alt.png";
 import sar from "../public/images/partners-logos/comp_sar.png";
-import esgtl from "../public/images/partners-logos/comp_esgtl.png";
+import esgtl from "../public/images/partners-logos/comp_esgtl_alt.png";
 import Contact from "./Contact";
 
 export default function opportunities() {
@@ -77,7 +77,7 @@ export default function opportunities() {
                 </div>
               </dl>
 
-              <dl className='flex items-center mt-6 text-xs space-x-8'>
+              <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                 <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                   {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -190,7 +190,7 @@ export default function opportunities() {
                 </div>
               </dl>
 
-              <dl className='flex items-center mt-6 text-xs space-x-8'>
+              <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                 <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                   {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -305,7 +305,7 @@ export default function opportunities() {
                 </div>
               </dl>
 
-              <dl className='flex items-center mt-6 text-xs space-x-8'>
+              <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                 <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                   {/* <svg
                       className='w-4 h-4 text-indigo-700'

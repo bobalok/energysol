@@ -76,7 +76,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -190,7 +190,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -306,7 +306,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -422,7 +422,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -536,7 +536,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -650,7 +650,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -766,7 +766,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -880,7 +880,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -996,7 +996,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -1110,7 +1110,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -1226,7 +1226,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -1340,7 +1340,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -1454,7 +1454,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
@@ -1568,7 +1568,7 @@ export default function Partners() {
                   </div>
                 </dl>
 
-                <dl className='flex items-center mt-6 text-xs space-x-8'>
+                <dl className='flex items-center mt-6 text-xs space-x-8 overflow-hidden'>
                   <div className='sm:inline-flex sm:items-center sm:shrink-0'>
                     {/* <svg
                       className='w-4 h-4 text-indigo-700'
