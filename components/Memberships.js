@@ -4,16 +4,16 @@ import Link from "next/link";
 
 import DCCI from "../public/images/membership-logos/comp_dcci.png";
 import BIAA from "../public/images/membership-logos/comp_biaa.png";
-// import BR from "../public/images/membership-logos/comp_br.png";
 import BFA from "../public/images/membership-logos/comp_bfa.png";
 import BFEIA from "../public/images/membership-logos/comp_bfeia.png";
+import BFVAPEA from "../public/images/membership-logos/comp_bfvapea.jpg";
 
 export default function Memberships() {
   return (
     <section className='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
       <div className='max-w-xl mx-auto text-center'>
         <h2 className='text-3xl font-bold sm:text-4xl'>
-          We are proud member of
+          Association Memberships
         </h2>
 
         {/* <p className='mt-4 text-lg text-gray-500'>
@@ -27,7 +27,7 @@ export default function Memberships() {
       </div>
 
       {/* Cards start here */}
-      <div className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-4'>
+      <div className='grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-5'>
         {/* DCCI */}
         <Link href={"#!"}>
           <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
@@ -165,18 +165,53 @@ export default function Memberships() {
             </div>
           </a>
         </Link>
+
+        {/* BFVAPEA */}
+        <Link href={"#!"}>
+          <a className='block p-4 rounded-lg border shadow-sm shadow-indigo-100 md:hover:-translate-y-1 md:hover:scale-110 md:transition-all'>
+            <div className=''>
+              <Image
+                className='rounded-md'
+                src={BFVAPEA}
+                alt='BFVAPEA'
+                //   height={170}
+                //   width={255}
+                layout='responsive'
+                //   objectFit='cover'
+                quality='70'
+                // blurDataURL='data:...' // automatically provided
+                placeholder='blur' // Optional blur-up while loading
+              />
+            </div>
+
+            <div className='mt-2'>
+              <dl>
+                {/* <div>
+                    <dt className='sr-only'>Establishment Date</dt>
+
+                    <dd className='text-sm text-gray-500'>Energy company</dd>
+                  </div> */}
+
+                <div>
+                  <dt className='sr-only'>Company Name</dt>
+
+                  <dd className='font-bold text-gray-600'>
+                    Bangladesh Fruits, Vegetables & Allied Products Exporters
+                    Association
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </a>
+        </Link>
       </div>
       <div className='mt-12 p-8 rounded-xl border border-gray-200'>
         <p className='text-lg text-gray-500 select-none sm:text-justify'>
-          Each year,{" "}
-          <strong>
-            {" "}
-            Energy Solution & Energy Solution Engineering Limited
-          </strong>{" "}
-          becomes more and more sustainable. At our company, we are committed to
-          maintaining the highest standards of honesty and integrity in all of
-          our business dealings. We are proud members of the DCCI, BIAA, BFA and
-          BFEIA. These memberships give us access to a wide range of resources
+          Each year, <strong> Energy Solution</strong> becomes more and more
+          sustainable. At our company, we are committed to maintaining the
+          highest standards of honesty and integrity in all of our business
+          dealings. We are proud members of the DCCI, BIAA, BFA, BFEIA and
+          BFVAPEA. These memberships give us access to a wide range of resources
           and support that has helped us to grow our business in Bangladesh.
         </p>
       </div>
