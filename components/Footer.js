@@ -12,9 +12,9 @@ const DynamicMapFooter = dynamic(() => import("../components/Mapiframe"), {
 export default function Footer() {
   return (
     <>
-      <footer className='text-white bg-gray-900 lg:grid lg:grid-cols-5'>
-        <aside className='hidden lg:relative lg:col-span-2 lg:block aspect-w-1 aspect-h-0'>
-          <DynamicMapFooter className='absolute inset-0 object-cover w-full h-full' />
+      <footer className="text-white bg-gray-900 lg:grid lg:grid-cols-5">
+        <aside className="hidden lg:relative lg:col-span-2 lg:block aspect-w-1 aspect-h-0">
+          <DynamicMapFooter className="absolute inset-0 object-cover w-full h-full" />
 
           {/* <img
             class='absolute inset-0 object-cover w-full h-full'
@@ -23,35 +23,35 @@ export default function Footer() {
           /> */}
         </aside>
 
-        <div className='px-4 py-16 sm:px-6 lg:px-8 lg:col-span-3'>
-          <div className='grid grid-cols-1 gap-8 sm:grid-cols-2'>
+        <div className="px-4 py-16 sm:px-6 lg:px-8 lg:col-span-3">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <div>
-              <p className='font-medium'>
-                <span className='text-xs tracking-widest uppercase'>
+              <p className="font-medium">
+                <span className="text-xs tracking-widest uppercase">
                   Call us
                 </span>
 
                 <a
-                  className='block text-2xl sm:text-3xl hover:opacity-75'
-                  href='tel:+8802222262118'
+                  className="block text-2xl sm:text-3xl hover:opacity-75"
+                  href="tel:+8802222262118"
                 >
                   +8802 222262118
                 </a>
               </p>
 
-              <ul className='mt-8 space-y-2 text-sm '>
+              <ul className="mt-8 space-y-2 text-sm ">
                 <li>
                   {" "}
                   <strong>Working Hour:</strong> Saturday - Thursday: 10am - 6pm
                 </li>
                 <li>
-                  <address className='not-italic'>
+                  <address className="not-italic">
                     <strong>Head Office:</strong> Plot 16, Road 10, Suite SW-4,
                     Gulshan-1, Dhaka-1212, Bangladesh.
                   </address>
                 </li>
                 <li>
-                  <address className='not-italic'>
+                  <address className="not-italic">
                     <strong>Registered Address:</strong> Advance Noorani Tower
                     (9th Floor), <br /> 1 Mohakhali C/A, Dhaka-1212, Bangladesh.
                   </address>
@@ -59,26 +59,26 @@ export default function Footer() {
 
                 <br />
                 <a
-                  href='https://goo.gl/maps/jPFLm4puSqqdKxoE6'
-                  className='hover:text-green-500 flex sm:hidden'
+                  href="https://goo.gl/maps/jPFLm4puSqqdKxoE6"
+                  className="hover:text-green-500 flex sm:hidden"
                 >
                   <svg
-                    className='w-4 h-4 mr-1'
-                    fill='currentColor'
-                    viewBox='0 0 50 50'
-                    aria-hidden='true'
+                    className="w-4 h-4 mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 50 50"
+                    aria-hidden="true"
                   >
                     <path
-                      fillRule='evenodd'
-                      d='M28.292 1.326C27.226 1.116 26.127 1 25 1c-4.71 0-8.98 1.93-12.06 5.04l6.92 5.592L28.292 1.326zM18.595 13.178L11.62 7.55C9.35 10.43 8 14.07 8 18c0 2.281.452 4.487 1.304 6.534L18.595 13.178zM22.608 11.432C23.353 11.159 24.154 11 25 11c3.87 0 7 3.13 7 7 0 .338-.032.667-.078.992l7.772-9.499c-2.058-3.539-5.348-6.268-9.285-7.595L22.608 11.432zM27.341 24.591C26.608 24.851 25.822 25 25 25c-3.87 0-7-3.13-7-7 0-.354.034-.7.084-1.039l-7.803 9.537c.386.666.809 1.315 1.289 1.932.37.5.87 1.14 1.45 1.89 1.267 1.633 2.959 3.816 4.59 6.164L27.341 24.591zM18.778 38.215c2.082 3.184 3.852 6.497 4.172 9.055.14.99.99 1.73 1.99 1.73 1.02 0 1.87-.75 1.99-1.75.61-4.83 6.57-12.48 9.78-16.6.56-.72 1.05-1.35 1.5-1.94C40.65 25.69 42 21.89 42 18c0-2.322-.471-4.536-1.319-6.555L18.778 38.215z'
-                      clipRule='evenodd'
+                      fillRule="evenodd"
+                      d="M28.292 1.326C27.226 1.116 26.127 1 25 1c-4.71 0-8.98 1.93-12.06 5.04l6.92 5.592L28.292 1.326zM18.595 13.178L11.62 7.55C9.35 10.43 8 14.07 8 18c0 2.281.452 4.487 1.304 6.534L18.595 13.178zM22.608 11.432C23.353 11.159 24.154 11 25 11c3.87 0 7 3.13 7 7 0 .338-.032.667-.078.992l7.772-9.499c-2.058-3.539-5.348-6.268-9.285-7.595L22.608 11.432zM27.341 24.591C26.608 24.851 25.822 25 25 25c-3.87 0-7-3.13-7-7 0-.354.034-.7.084-1.039l-7.803 9.537c.386.666.809 1.315 1.289 1.932.37.5.87 1.14 1.45 1.89 1.267 1.633 2.959 3.816 4.59 6.164L27.341 24.591zM18.778 38.215c2.082 3.184 3.852 6.497 4.172 9.055.14.99.99 1.73 1.99 1.73 1.02 0 1.87-.75 1.99-1.75.61-4.83 6.57-12.48 9.78-16.6.56-.72 1.05-1.35 1.5-1.94C40.65 25.69 42 21.89 42 18c0-2.322-.471-4.536-1.319-6.555L18.778 38.215z"
+                      clipRule="evenodd"
                     />
                   </svg>
                   Google Map Direction
                 </a>
               </ul>
 
-              <div className='mt-8 space-y-2'>
+              <div className="mt-8 space-y-2">
                 {/* <a
                   aria-label='Chat on WhatsApp'
                   href='https://wa.me/+8801711591070?text=Obtained%20your%20WhatsApp%20contact%20from%20the%20website.%20Are%20you%20free%20for%20a%20conversation%3F'
@@ -92,26 +92,26 @@ export default function Footer() {
                   />
                 </a> */}
                 <button
-                  className='inline-flex items-center group justify-center w-full px-5 py-3 font-bold text-white border border-gray-800 hover:bg-green-500 transition rounded sm:w-auto'
-                  type='button'
+                  className="inline-flex items-center group justify-center w-full px-5 py-3 font-bold text-white border border-gray-800 hover:bg-green-500 transition rounded sm:w-auto"
+                  type="button"
                 >
                   <a
-                    className='font-bold inline-flex items-center'
-                    aria-label='Chat on WhatsApp'
-                    href='https://wa.me/+8801711591070?text=Obtained%20your%20WhatsApp%20contact%20from%20the%20website.%20Are%20you%20free%20for%20a%20conversation%3F'
-                    target='_blank'
-                    rel='noreferrer'
+                    className="font-bold inline-flex items-center"
+                    aria-label="Chat on WhatsApp"
+                    href="https://wa.me/+8801711591070?text=Obtained%20your%20WhatsApp%20contact%20from%20the%20website.%20Are%20you%20free%20for%20a%20conversation%3F"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <svg
-                      className='w-6 h-6 mr-2'
-                      fill='currentColor'
-                      viewBox='0 0 30 30'
-                      aria-hidden='true'
+                      className="w-6 h-6 mr-2"
+                      fill="currentColor"
+                      viewBox="0 0 30 30"
+                      aria-hidden="true"
                     >
                       <path
-                        fillRule='evenodd'
-                        d='M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z'
-                        clipRule='evenodd'
+                        fillRule="evenodd"
+                        d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"
+                        clipRule="evenodd"
                       />
                     </svg>
                     Chat on WhatsApp
@@ -207,20 +207,20 @@ export default function Footer() {
               </div> */}
             </div>
 
-            <div className='grid grid-cols-1 gap-4'>
-              <div className=' sm:justify-between sm:flex'>
+            <div className="grid grid-cols-1 gap-4">
+              <div className=" sm:justify-between sm:flex">
                 <span></span>
-                <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-300'>
-                  <p className='font-bold'>Support</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-300">
+                  <p className="font-bold">Support</p>
                   <Link href={"/contact"}>
-                    <a className='hover:opacity-75'> Contact </a>
+                    <a className="hover:opacity-75"> Contact </a>
                   </Link>
                   <a
-                    className='hover:opacity-75'
-                    href='/docs/ESEL-ES_Company-Profile.pdf'
-                    alt='Download Energy Solution Company Profile'
-                    target='_self'
-                    rel='noopener noreferrer'
+                    className="hover:opacity-75"
+                    href="/docs/ESEL-ES_Company-Profile.pdf"
+                    alt="Download Energy Solution Company Profile"
+                    target="_self"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     Company profile{" "}
@@ -229,11 +229,11 @@ export default function Footer() {
                     {" "}
                     !Live Chat{" "}
                   </a> */}
-                  <Link href='/privacypolicy'>
-                    <a className='hover:opacity-75'> Privacy Policy </a>
+                  <Link href="/privacypolicy">
+                    <a className="hover:opacity-75"> Privacy Policy </a>
                   </Link>
-                  <Link href='https://up.energysolutionbd.net/status/availability-check'>
-                    <a className='hover:opacity-75'> Availability Check </a>
+                  <Link href="https://up.energysolutionbd.net/status/availability-check">
+                    <a className="hover:opacity-75"> Availability Check </a>
                   </Link>
                 </nav>
               </div>
@@ -263,16 +263,16 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className='pt-12 mt-12 border-t border-gray-800'>
-            <div className='text-sm text-gray-300 sm:items-center sm:justify-between sm:flex'>
-              <div className='flex space-x-3'>
-                <a className='hover:opacity-75 flex items-center' href='#!'>
+          <div className="pt-12 mt-12 border-t border-gray-800">
+            <div className="text-sm text-gray-300 sm:items-center sm:justify-between sm:flex">
+              <div className="flex space-x-3">
+                <a className="hover:opacity-75 flex items-center" href="#!">
                   {" "}
-                  Maintained by{" "}
-                  <span className='font-abril text-xl flex items-center ml-1'>
+                  Developed by{" "}
+                  <span className="font-abril text-xl flex items-center ml-1">
                     {/* <span className='material-symbols-sharp'>bookmark</span> */}
                     {/* <RiBookmarkFill /> */}
-                    <IoBookmarkSharp className='mt-1' />
+                    <IoBookmarkSharp className="mt-1" />
                     markten
                   </span>
                 </a>
@@ -286,13 +286,13 @@ export default function Footer() {
                 </a> */}
               </div>
 
-              <p className='mt-4 sm:mt-0'>
+              <p className="mt-4 sm:mt-0">
                 &copy; 2010-{new Date().getFullYear()} Energy Solution
                 Engineering Ltd.
               </p>
             </div>
 
-            <p className='mt-8 text-xs text-gray-500'>
+            <p className="mt-8 text-xs text-gray-500">
               Energy Solution Engineering Ltd will take all the steps reasonably
               necessary to ensure that your data is treated securely and in
               accordance with this Privacy Policy and no transfer of your
