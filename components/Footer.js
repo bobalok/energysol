@@ -287,8 +287,7 @@ export default function Footer() {
               </div>
 
               <p className="mt-4 sm:mt-0">
-                &copy; 2010-{new Date().getFullYear()} Energy Solution
-                Engineering Ltd.
+                &copy; 2010-{new Date().getFullYear()} All rights reserved.
               </p>
             </div>
 
